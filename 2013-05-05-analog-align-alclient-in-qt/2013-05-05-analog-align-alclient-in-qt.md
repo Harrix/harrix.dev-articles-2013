@@ -1,6 +1,6 @@
 ---
 categories: [it, programming]
-tags: [Qt, С++ Builder, Qt Gui]
+tags: [Qt, C++ Builder, Qt Gui]
 ---
 
 # Аналог Align alClient в Qt Gui Application
