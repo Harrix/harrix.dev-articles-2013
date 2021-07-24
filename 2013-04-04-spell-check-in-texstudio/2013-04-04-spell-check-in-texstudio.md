@@ -10,7 +10,7 @@ download: files/russian_english.zip
 
 Качаем архив русско-английского словаря [russian_english.zip](files/russian_english.zip).
 
-Переходим в папку `dictionaries` в папке TexStudio. У меня это `C:\Program Files (x86)\texstudio\dictionaries`. Если папки нет, то создайте её.
+Переходим в папку `dictionaries` в папке TexStudio. У меня это `C:\Program Files\texstudio\dictionaries` (раньше было `C:\Program Files (x86)\texstudio\dictionaries`). Если папки нет, то создайте её.
 
 Распаковываем все файлы из архива в эту папку:
 
