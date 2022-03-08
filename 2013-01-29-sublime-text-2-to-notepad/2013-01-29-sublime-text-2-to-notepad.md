@@ -17,7 +17,7 @@ related-id: sublime-text-2
 - русский язык корректно отображается;
 - менеджер пакетов установлен.
 
-Посмотреть базовые настройки можно в статье [Первоначальная настройка Sublime Text 2](/blog/2013/initial-setup-sublime-text-2/).
+Посмотреть базовые настройки можно в статье [Первоначальная настройка Sublime Text 2](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/2013-01-05-initial-setup-sublime-text-2/2013-01-05-initial-setup-sublime-text-2.md).
 
 Итак, пойдем по порядку тех возможностей и деталей, которые мы можем переделать и настроить в Sublime Text 2.
 

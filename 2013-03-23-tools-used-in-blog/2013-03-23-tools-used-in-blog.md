@@ -401,7 +401,7 @@ function make_contents($content){
 
 ## Arconix Shortcodes
 
-Использую интересный плагин [Arconix Shortcodes](https://wordpress.org/plugins/arconix-shortcodes/). Полный обзор я сделал тут: [Обзор плагина Arconix Shortcodes для WordPress](/blog/2013/arconix-shortcodes/)
+Использую интересный плагин [Arconix Shortcodes](https://wordpress.org/plugins/arconix-shortcodes/). Полный обзор я сделал тут: [Обзор плагина Arconix Shortcodes для WordPress](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/2013-02-20-arconix-shortcodes/2013-02-20-arconix-shortcodes.md)
 
 Позволяет делать текстовые блоки:
 

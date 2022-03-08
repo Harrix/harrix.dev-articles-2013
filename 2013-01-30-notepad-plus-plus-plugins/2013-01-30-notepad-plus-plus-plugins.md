@@ -30,7 +30,7 @@ update: 2018-07-30
 
 ![Меню плагина TextFX](img/textfx.png)
 
-Полный обзор смотрите в статье [Обзор плагина TextFX в Notepad++](/blog/2013/textfx).
+Полный обзор смотрите в статье [Обзор плагина TextFX в Notepad++](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/2013-01-30-textfx/2013-01-30-textfx.md).
 
 ## Сортировка чисел
 
