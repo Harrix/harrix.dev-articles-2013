@@ -25,8 +25,7 @@ update: 2018
 В качестве основного шрифта используется `Open Sans`, а для отображения кода `PT Mono`:
 
 ```css
-@import url(
-  https://fonts.googleapis.com/css?family=Open+Sans:400,
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,
   300,
   300italic,
   400italic,
@@ -38,8 +37,7 @@ update: 2018
   800&subset=latin,
   cyrillic-ext,
   cyrillic,
-  latin-ext
-);
+  latin-ext);
 @import url(https://fonts.googleapis.com/css?family=PT+Mono&subset=latin, cyrillic, cyrillic-ext, latin-ext);
 ```
 
@@ -402,7 +400,7 @@ function make_contents($content){
 
 ## Arconix Shortcodes
 
-Использую интересный плагин [Arconix Shortcodes](https://wordpress.org/plugins/arconix-shortcodes/). Полный обзор я сделал тут: [Обзор плагина Arconix Shortcodes для WordPress](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/2013-02-20-arconix-shortcodes/2013-02-20-arconix-shortcodes.md)
+Использую интересный плагин [Arconix Shortcodes](https://wordpress.org/plugins/arconix-shortcodes/). Полный обзор я сделал тут: [Обзор плагина Arconix Shortcodes для WordPress](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/arconix-shortcodes/arconix-shortcodes.md)
 
 Позволяет делать текстовые блоки:
 

@@ -18,7 +18,7 @@ related-id: sublime-text-2
 - русский язык корректно отображается;
 - менеджер пакетов установлен.
 
-Посмотреть базовые настройки можно в статье [Первоначальная настройка Sublime Text 2](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/2013-01-05-initial-setup-sublime-text-2/2013-01-05-initial-setup-sublime-text-2.md).
+Посмотреть базовые настройки можно в статье [Первоначальная настройка Sublime Text 2](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/initial-setup-sublime-text-2/initial-setup-sublime-text-2.md).
 
 Итак, пойдем по порядку тех возможностей и деталей, которые мы можем переделать и настроить в Sublime Text 2.
 
@@ -681,7 +681,14 @@ Notepad++ умеет печатать (причем с подсветкой ко
 ```json
 {
   "command": "set_layout",
-  "args": { "cols": [0.0, 0.5, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1]] },
+  "args": {
+    "cols": [0.0, 0.5, 1.0],
+    "rows": [0.0, 1.0],
+    "cells": [
+      [0, 0, 1, 1],
+      [1, 0, 2, 1]
+    ]
+  },
   "caption": "Создать второе окно"
 }
 ```

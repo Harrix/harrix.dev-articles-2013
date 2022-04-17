@@ -17,7 +17,7 @@ tags: [LaTeX]
 \usepackage{pscyr} % Нормальные шрифты
 ```
 
-Как подключить модуль Pscyr, читайте [тут](https://github.com/Harrix/harrix.dev-blog-2018/blob/main/2018-08-03-pscyr/2018-08-03-pscyr.md).
+Как подключить модуль Pscyr, читайте [тут](https://github.com/Harrix/harrix.dev-blog-2018/blob/main/pscyr/pscyr.md).
 
 После этого прописываете следующие настройки:
 

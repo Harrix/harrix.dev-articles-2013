@@ -330,7 +330,7 @@ for (int i = 0; i < 1000; i++)
 }
 ```
 
-Но разумеется, что лучше [использовать потоки](https://github.com/Harrix/harrix.dev-blog-2016/blob/main/2016-02-20-using-qthread/2016-02-20-using-qthread.md) для этого.
+Но разумеется, что лучше [использовать потоки](https://github.com/Harrix/harrix.dev-blog-2016/blob/main/using-qthread/using-qthread.md) для этого.
 
 ## Как получить расширение файла по его имени
 
@@ -513,7 +513,7 @@ bool copyFile(QString filename, QString dir)
 
 Как сделать так, чтобы элементы растягивались под размер окна в Gui Application?
 
-Читайте тут: [Аналог Align alClient в Qt Gui Application](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/2013-05-05-analog-align-alclient-in-qt/2013-05-05-analog-align-alclient-in-qt.md).
+Читайте тут: [Аналог Align alClient в Qt Gui Application](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/analog-align-alclient-in-qt/analog-align-alclient-in-qt.md).
 
 ## Как поставить режим readonly для textEdit
 
@@ -674,17 +674,17 @@ str.replace(str.indexOf(subStr), subStr.size(), newStr);
 
 ## Как установить Qt
 
-[Установка Qt](https://github.com/Harrix/harrix.dev-blog-2018/blob/main/2018-08-19-install-qt-mingw/2018-08-19-install-qt-mingw.md)
+[Установка Qt](https://github.com/Harrix/harrix.dev-blog-2018/blob/main/install-qt-mingw/install-qt-mingw.md)
 
-[Установка Qt под Visual Studio, MinGW и для разработки под Android](https://github.com/Harrix/harrix.dev-blog-2018/blob/main/2018-08-19-install-qt-advanced/2018-08-19-install-qt-advanced.md)
+[Установка Qt под Visual Studio, MinGW и для разработки под Android](https://github.com/Harrix/harrix.dev-blog-2018/blob/main/install-qt-advanced/install-qt-advanced.md)
 
 ## Как подключиться к базе данных в Microsoft SQL Server 2012 в Qt
 
-Смотрите в [статье](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/2014-04-22-connect-to-sql-server-in-qt/2014-04-22-connect-to-sql-server-in-qt.md).
+Смотрите в [статье](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/connect-to-sql-server-in-qt/connect-to-sql-server-in-qt.md).
 
 ## Как вывести данные в tableView в Qt
 
-Смотрите в [статье](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/2014-04-22-output-data-to-qtableview/2014-04-22-output-data-to-qtableview.md).
+Смотрите в [статье](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/output-data-to-qtableview/output-data-to-qtableview.md).
 
 ## Как сделать tableView только для чтения (ReadOnly)
 
@@ -696,19 +696,19 @@ ui->tableView->setEditTriggers(QTableWidget::NoEditTriggers);
 
 ## Как сохранить данные из QTextEdit в ODF
 
-Читать [статью](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/2014-05-06-save-from-qtextedit-to-odf/2014-05-06-save-from-qtextedit-to-odf.md).
+Читать [статью](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/save-from-qtextedit-to-odf/save-from-qtextedit-to-odf.md).
 
 ## Как сохранять из QTableView данные в CSV формат
 
-Читать [статью](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/2014-05-06-save-from-qtableview-to-csv/2014-05-06-save-from-qtableview-to-csv.md).
+Читать [статью](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/save-from-qtableview-to-csv/save-from-qtableview-to-csv.md).
 
 ## Как проиграть mp3 файл
 
-Прочитать можно в [статье](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/2014-05-08-how-to-play-mp3-in-qt/2014-05-08-how-to-play-mp3-in-qt.md).
+Прочитать можно в [статье](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/how-to-play-mp3-in-qt/how-to-play-mp3-in-qt.md).
 
 ## Как рисовать графики в Qt
 
-[Графики в Qt через QCustomPlot](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/2014-05-25-qcustomplot/2014-05-25-qcustomplot.md)
+[Графики в Qt через QCustomPlot](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/qcustomplot/qcustomplot.md)
 
 ## Как сделать приложение, которое бы не разворачивалось
 

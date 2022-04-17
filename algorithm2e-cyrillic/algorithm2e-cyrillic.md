@@ -6,13 +6,13 @@ tags: [LaTeX]
 
 # Псевдокод в LaTeX для русского текста — algorithm2e
 
-В прошлой [статье](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/2013-04-03-latex-highlight-cyrillic/2013-04-03-latex-highlight-cyrillic.md) писал о подсветке синтаксиса, но иногда надо нарисовать псевдокод в красивой форме. Что делать?
+В прошлой [статье](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/latex-highlight-cyrillic/latex-highlight-cyrillic.md) писал о подсветке синтаксиса, но иногда надо нарисовать псевдокод в красивой форме. Что делать?
 
 ---
 
 **Внимание!** <!-- !important -->
 
-Если планируете использовать пакет для отображения алгоритмов больше одной страницы в длину, то откажитесь от него, так как он не приспособлен для разрезания алгоритмов по страницам. Используйте лучше пакет [algorithmicx](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/2013-04-25-algorithmicx-cyrillic/2013-04-25-algorithmicx-cyrillic.md).
+Если планируете использовать пакет для отображения алгоритмов больше одной страницы в длину, то откажитесь от него, так как он не приспособлен для разрезания алгоритмов по страницам. Используйте лучше пакет [algorithmicx](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/algorithmicx-cyrillic/algorithmicx-cyrillic.md).
 
 ---
 
