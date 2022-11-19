@@ -2,7 +2,7 @@
 date: 2013-04-18
 categories: [it, tex]
 tags: [LaTeX]
-download: files/LaTeX.zip
+download: <files/LaTeX.zip>
 update: 2018
 ---
 
