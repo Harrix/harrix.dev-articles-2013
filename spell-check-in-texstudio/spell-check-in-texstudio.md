@@ -2,7 +2,7 @@
 date: 2013-04-04
 categories: [it, tex]
 tags: [LaTeX, Проверка орфографии]
-download: files/russian_english.zip
+download: https://github.com/Harrix/harrix.dev-blog-2013/raw/main/spell-check-in-texstudio/files/russian_english.zip
 ---
 
 # Проверка орфографии в TeXstudio
