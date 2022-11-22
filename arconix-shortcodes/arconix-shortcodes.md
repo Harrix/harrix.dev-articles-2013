@@ -2,8 +2,6 @@
 date: 2013-02-20
 categories: [it, web]
 tags: [Wordpress]
-demo: http://demo.arconixpc.com/arconix-shortcodes/
-link: https://wordpress.org/plugins/arconix-shortcodes/
 update: 2018
 ---
 
