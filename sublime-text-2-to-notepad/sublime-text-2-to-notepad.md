@@ -3,6 +3,8 @@ date: 2013-01-29
 categories: [it, program]
 tags: [Sublime Text 2, Notepad++, Текстовой редактор, Проверка орфографии]
 related-id: sublime-text-2
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Превращаем Sublime Text 2 в Notepad++

@@ -2,6 +2,8 @@
 date: 2013-04-06
 categories: [it, tex]
 tags: [LaTeX]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Как убрать отступ у списка itemize перед предыдущим текстом

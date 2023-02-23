@@ -2,6 +2,8 @@
 date: 2013-03-08
 categories: [it, web]
 tags: [CSS, HTML, Таблица]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Красивые таблицы CSS в HTML

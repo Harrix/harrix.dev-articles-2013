@@ -3,6 +3,8 @@ date: 2013-01-30
 categories: [it, program]
 tags: [Notepad++, Текстовой редактор]
 update: 2018
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Обзор плагина TextFX в Notepad++

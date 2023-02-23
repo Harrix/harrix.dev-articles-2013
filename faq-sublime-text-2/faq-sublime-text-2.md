@@ -3,6 +3,8 @@ date: 2013-01-05
 categories: [it, program]
 tags: [Sublime Text 2, Текстовой редактор, FAQ]
 related-id: sublime-text-2
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Шпаргалка по Sublime Text 2

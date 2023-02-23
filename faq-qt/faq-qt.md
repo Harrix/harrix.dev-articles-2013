@@ -2,6 +2,8 @@
 date: 2013-07-24
 categories: [it, programming]
 tags: [Qt, QtQuick, QML, C++, FAQ]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # FAQ по Qt

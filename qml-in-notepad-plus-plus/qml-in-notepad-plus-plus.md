@@ -3,6 +3,8 @@ date: 2013-02-11
 categories: [it, program]
 tags: [Notepad++, Текстовой редактор, QML, Qt, Подсветка синтаксиса]
 related-id: notepad-highlight
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # QML в Notepad++

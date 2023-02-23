@@ -2,6 +2,8 @@
 date: 2013-01-05
 categories: [reflections]
 tags: [Предрассудки, Рассуждения]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Про материальность мыслей, порчу, вуду и остальное

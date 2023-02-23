@@ -2,6 +2,8 @@
 date: 2013-02-20
 categories: [it, programming]
 tags: [Qt, QtQuick, QML]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Видео в QtQuick 2.0

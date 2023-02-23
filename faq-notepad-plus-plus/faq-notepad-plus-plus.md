@@ -3,6 +3,8 @@ date: 2013-03-03
 categories: [it, program]
 tags: [Notepad++, Текстовой редактор, FAQ]
 update: 2018
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Шпаргалка по Notepad++

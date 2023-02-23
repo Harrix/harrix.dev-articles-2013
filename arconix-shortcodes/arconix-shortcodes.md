@@ -3,6 +3,8 @@ date: 2013-02-20
 categories: [it, web]
 tags: [Wordpress]
 update: 2018
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Обзор плагина Arconix Shortcodes для WordPress

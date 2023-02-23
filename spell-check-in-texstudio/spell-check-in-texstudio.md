@@ -3,6 +3,8 @@ date: 2013-04-04
 categories: [it, tex]
 tags: [LaTeX, Проверка орфографии]
 download: https://github.com/Harrix/harrix.dev-blog-2013/raw/main/spell-check-in-texstudio/files/russian_english.zip
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Проверка орфографии в TeXstudio

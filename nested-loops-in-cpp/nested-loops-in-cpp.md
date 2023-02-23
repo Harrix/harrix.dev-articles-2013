@@ -2,6 +2,8 @@
 date: 2013-08-16
 categories: [it, programming]
 tags: [C++, Алгоритм]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Как реализовать переменное количество вложенных циклов в C++

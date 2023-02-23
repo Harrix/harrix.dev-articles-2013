@@ -2,6 +2,8 @@
 date: 2013-04-25
 categories: [it, tex]
 tags: [LaTeX]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Псевдокод в LaTeX для русского текста — algorithmicx

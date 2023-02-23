@@ -4,6 +4,8 @@ categories: [it, tex]
 tags: [LaTeX]
 download: https://github.com/Harrix/harrix.dev-blog-2013/raw/main/latex-and-illustrator/files/LaTeX.zip
 update: 2018
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # LaTeX и Illustrator

@@ -2,6 +2,8 @@
 date: 2013-02-21
 categories: [it, programming]
 tags: [Qt, QtQuick, QML, C++]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Соответствие include в Qt5 и Qt4 в QtQuick приложениях

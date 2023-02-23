@@ -4,6 +4,8 @@ categories: [it]
 tags: [Рассуждения]
 latex: true
 update: 2018-07-01
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Библиотека «всех» знаний

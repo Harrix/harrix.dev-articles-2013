@@ -2,6 +2,8 @@
 date: 2013-03-21
 categories: [it, programming]
 tags: [Qt, QtQuick, QML]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Проблема с названием QML файлов в QtQuick 2

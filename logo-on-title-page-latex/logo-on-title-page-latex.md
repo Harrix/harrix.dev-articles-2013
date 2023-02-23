@@ -2,6 +2,8 @@
 date: 2013-04-06
 categories: [it, tex]
 tags: [LaTeX]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Логотип на титульной странице в LaTeX

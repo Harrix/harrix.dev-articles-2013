@@ -2,6 +2,8 @@
 date: 2013-07-24
 categories: [it, tex]
 tags: [LaTeX, FAQ]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # FAQ по LaTeX
