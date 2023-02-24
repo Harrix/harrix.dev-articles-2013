@@ -4,6 +4,8 @@ categories: [it, programming]
 tags: [Qt, QtQuick, QML, C++]
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
+license: CC BY 4.0
+license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 ---
 
 # Соответствие include в Qt5 и Qt4 в QtQuick приложениях

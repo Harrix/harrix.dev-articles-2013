@@ -4,6 +4,8 @@ categories: [it, programming]
 tags: [Qt, QtQuick, QML]
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
+license: CC BY 4.0
+license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 ---
 
 # Как сослаться на элемент в папке с программой в QtQuick 2.0

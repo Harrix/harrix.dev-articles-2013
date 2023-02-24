@@ -5,6 +5,8 @@ tags: [Sublime Text 2, Текстовой редактор, FAQ]
 related-id: sublime-text-2
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
+license: CC BY 4.0
+license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 ---
 
 # Шпаргалка по Sublime Text 2

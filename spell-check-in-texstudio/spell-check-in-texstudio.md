@@ -5,6 +5,8 @@ tags: [LaTeX, Проверка орфографии]
 download: https://github.com/Harrix/harrix.dev-blog-2013/raw/main/spell-check-in-texstudio/files/russian_english.zip
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
+license: CC BY 4.0
+license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 ---
 
 # Проверка орфографии в TeXstudio
