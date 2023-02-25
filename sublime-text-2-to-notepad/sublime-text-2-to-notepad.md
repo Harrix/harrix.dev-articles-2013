@@ -9,6 +9,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/sublime-text-2-to-notepad/sublime-text-2-to-notepad.md
 url: https://harrix.dev/ru/blog/2013/sublime-text-2-to-notepad/
+lang: ru
 ---
 
 # Превращаем Sublime Text 2 в Notepad++

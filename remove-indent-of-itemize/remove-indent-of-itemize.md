@@ -8,6 +8,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/remove-indent-of-itemize/remove-indent-of-itemize.md
 url: https://harrix.dev/ru/blog/2013/remove-indent-of-itemize/
+lang: ru
 ---
 
 # Как убрать отступ у списка itemize перед предыдущим текстом

@@ -8,6 +8,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/nested-loops-in-cpp/nested-loops-in-cpp.md
 url: https://harrix.dev/ru/blog/2013/nested-loops-in-cpp/
+lang: ru
 ---
 
 # Как реализовать переменное количество вложенных циклов в C++

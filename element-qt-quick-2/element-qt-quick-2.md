@@ -8,6 +8,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/element-qt-quick-2/element-qt-quick-2.md
 url: https://harrix.dev/ru/blog/2013/element-qt-quick-2/
+lang: ru
 ---
 
 # Как сослаться на элемент в папке с программой в QtQuick 2.0

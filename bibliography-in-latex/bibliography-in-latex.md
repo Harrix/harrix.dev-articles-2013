@@ -8,6 +8,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/bibliography-in-latex/bibliography-in-latex.md
 url: https://harrix.dev/ru/blog/2013/bibliography-in-latex/
+lang: ru
 ---
 
 # Как оформлять список литературы в LaTeX

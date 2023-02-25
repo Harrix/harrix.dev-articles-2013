@@ -8,6 +8,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/analog-align-alclient-in-qt/analog-align-alclient-in-qt.md
 url: https://harrix.dev/ru/blog/2013/analog-align-alclient-in-qt/
+lang: ru
 ---
 
 # Аналог Align alClient в Qt Gui Application

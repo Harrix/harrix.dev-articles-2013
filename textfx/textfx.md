@@ -9,6 +9,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/textfx/textfx.md
 url: https://harrix.dev/ru/blog/2013/textfx/
+lang: ru
 ---
 
 # Обзор плагина TextFX в Notepad++

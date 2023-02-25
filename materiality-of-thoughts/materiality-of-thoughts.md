@@ -8,6 +8,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/materiality-of-thoughts/materiality-of-thoughts.md
 url: https://harrix.dev/ru/blog/2013/materiality-of-thoughts/
+lang: ru
 ---
 
 # Про материальность мыслей, порчу, вуду и остальное

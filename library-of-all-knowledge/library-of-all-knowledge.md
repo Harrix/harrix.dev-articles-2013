@@ -10,6 +10,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/library-of-all-knowledge/library-of-all-knowledge.md
 url: https://harrix.dev/ru/blog/2013/library-of-all-knowledge/
+lang: ru
 ---
 
 # Библиотека «всех» знаний

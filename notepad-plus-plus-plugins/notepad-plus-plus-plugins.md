@@ -9,6 +9,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/notepad-plus-plus-plugins/notepad-plus-plus-plugins.md
 url: https://harrix.dev/ru/blog/2013/notepad-plus-plus-plugins/
+lang: ru
 ---
 
 # Плагины Notepad++

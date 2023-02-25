@@ -8,6 +8,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/logo-on-title-page-latex/logo-on-title-page-latex.md
 url: https://harrix.dev/ru/blog/2013/logo-on-title-page-latex/
+lang: ru
 ---
 
 # Логотип на титульной странице в LaTeX
