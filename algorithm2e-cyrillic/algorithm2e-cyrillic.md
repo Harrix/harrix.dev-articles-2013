@@ -13,6 +13,8 @@ lang: ru
 
 # Псевдокод в LaTeX для русского текста — algorithm2e
 
+![Featured image](featured-image.svg)
+
 В прошлой [статье](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/latex-highlight-cyrillic/latex-highlight-cyrillic.md) <!-- https://harrix.dev/blog/2013/latex-highlight-cyrillic/ --> писал о подсветке синтаксиса, но иногда надо нарисовать псевдокод в красивой форме. Что делать?
 
 ---

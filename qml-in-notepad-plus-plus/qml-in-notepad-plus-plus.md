@@ -14,6 +14,8 @@ lang: ru
 
 # QML в Notepad++
 
+![Featured image](featured-image.svg)
+
 Как открыть QML файл в Notepad++ с подсветкой синтаксиса?
 
 Стили подсветки синтаксиса:

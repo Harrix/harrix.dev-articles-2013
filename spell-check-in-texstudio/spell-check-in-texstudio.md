@@ -14,6 +14,8 @@ lang: ru
 
 # Проверка орфографии в TeXstudio
 
+![Featured image](featured-image.svg)
+
 Для редактирования LaTex документов я использую связку [TeXstudio](https://www.texstudio.org/) и [MiKTeX](https://miktex.org/). Но вот проверки орфографии русского языка в TeXstudio по умолчанию нет.
 
 Качаем архив русско-английского словаря [russian_english.zip](files/russian_english.zip).

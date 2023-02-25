@@ -13,6 +13,8 @@ lang: ru
 
 # Логотип на титульной странице в LaTeX
 
+![Featured image](featured-image.svg)
+
 Как поставить логотип на титульной странице в LaTeX документе макета article?
 
 Подключите модуль `titlepic`:

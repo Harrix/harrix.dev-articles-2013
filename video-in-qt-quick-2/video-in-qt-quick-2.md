@@ -13,6 +13,8 @@ lang: ru
 
 # Видео в QtQuick 2.0
 
+![Featured image](featured-image.svg)
+
 Как проиграть видео в приложении QtQuick 2.0? В статье описывается пример для Qt 5.0.1 for Windows 32-bit (MinGW 4.7).
 
 ## Подготовка

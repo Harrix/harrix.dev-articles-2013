@@ -13,6 +13,8 @@ lang: ru
 
 # Красивые таблицы CSS в HTML
 
+![Featured image](featured-image.svg)
+
 Примеры оформления таблиц с помощью CSS стилей.
 
 ## Адаптивная таблица

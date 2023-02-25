@@ -15,6 +15,8 @@ lang: ru
 
 # LaTeX и Illustrator
 
+![Featured image](featured-image.svg)
+
 Как добавлять LaTeX формулы в Illustrator? Об этом идет речь в статье.
 
 ## Исходные данные

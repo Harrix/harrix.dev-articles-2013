@@ -14,6 +14,8 @@ lang: ru
 
 # Плагины Notepad++
 
+![Featured image](featured-image.svg)
+
 Известный редактор Notepad++, возможности которого можно расширить дополнительными плагинами, о некоторых я и расскажу.
 
 ## Про Plugin Manager
