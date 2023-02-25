@@ -736,7 +736,11 @@ w.setFixedSize(QSize(466, 485));
 
 ![Изменение параметра Display right margin at column](img/right-margin_01.png)
 
+_Рисунок 1 — Изменение параметра Display right margin at column_
+
 ![Результат изменения параметра Display right margin at column](img/right-margin_02.png)
+
+_Рисунок 2 — Результат изменения параметра Display right margin at column_
 
 ## Как вывести QMessageBox и узнать его результат
 

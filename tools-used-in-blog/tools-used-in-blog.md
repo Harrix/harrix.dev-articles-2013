@@ -56,6 +56,8 @@ lang: ru
 
 ![Crayon Syntax Highlighter](img/crayon-syntax-highlighter.png)
 
+_Рисунок 1 — Crayon Syntax Highlighter_
+
 Для оформления использую свой стиль кода, который похож на тему Coy из библиотеки Prism.js.
 
 Файл оформления можно скачать: [coy.zip](files/coy.zip).
@@ -94,6 +96,8 @@ pre {
 Пример отображения формулы:
 
 ![WP QuickLaTeX](img/wp-quicklatex.png)
+
+_Рисунок 2 — WP QuickLaTeX_
 
 ## Плагин для отображения числа просмотров страницы
 
@@ -319,6 +323,8 @@ CSS код:
 
 ![MimeTypes Link Icons](img/mimetypes-link-icons.png)
 
+_Рисунок 3 — MimeTypes Link Icons_
+
 ## Отображение клавиш клавиатуры в тексте
 
 Использую следующий код:
@@ -336,6 +342,8 @@ kbd {
 ```
 
 ![Отображение клавиш клавиатуры в тексте](img/kbd.png)
+
+_Рисунок 4 — Отображение клавиш клавиатуры в тексте_
 
 ## Содержание статей
 
@@ -393,6 +401,8 @@ function make_contents($content){
 
 ![Пример содержания статьи](img/contents.png)
 
+_Рисунок 5 — Пример содержания статьи_
+
 ## Добавление тэгов (шорткодов) в редактор статей
 
 [AddQuicktag](https://wordpress.org/plugins/addquicktag/) — плагин, чтобы добавлять некоторые постоянно использующиеся куски кода или шорткоды других плагинов, символы.
@@ -401,9 +411,13 @@ function make_contents($content){
 
 ![AddQuicktag](img/add-quicktag_01.png)
 
+_Рисунок 6 — AddQuicktag_
+
 В итоге получаем такое:
 
 ![AddQuicktag](img/add-quicktag_02.png)
+
+_Рисунок 7 — AddQuicktag_
 
 Файл с настройками кнопок в архиве: [add-quicktag.zip](files/add-quicktag.zip).
 
@@ -415,7 +429,11 @@ function make_contents($content){
 
 ![Блок с предупреждением](img/box-alert.png)
 
+_Рисунок 8 — Блок с предупреждением_
+
 ![Блок с комментарием](img/box-comment.png)
+
+_Рисунок 9 — Блок с комментарием_
 
 Спойлеры:
 
@@ -425,9 +443,13 @@ function make_contents($content){
 
 ![Кнопка](img/button.png)
 
+_Рисунок 10 — Кнопка_
+
 Вкладки:
 
 ![Вкладки](img/tabs.png)
+
+_Рисунок 11 — Вкладки_
 
 И многое другое. В общем полезный плагин.
 
@@ -511,6 +533,8 @@ http://ping.feedburner.com
 
 ![Сервисы обновления](img/update-services.png)
 
+_Рисунок 12 — Сервисы обновления_
+
 Это чтобы Feedburner сразу получал сигнал об изменениях в статьях и публикациях новых.
 
 В настройках Wordpress `Настройки` → `Чтение` в `Для каждой статьи в RSS-ленте отображать` выбрал `Полный текст`.
@@ -554,6 +578,8 @@ add_filter( 'the_content_feed' ,'dear_abby_rss_teaser' );
 ```
 
 ![Список с нумерацией](img/display-posts-shortcode.png)
+
+_Рисунок 13 — Список с нумерацией_
 
 ### Список статей с метками Qt или QtQuick с нумерацией
 

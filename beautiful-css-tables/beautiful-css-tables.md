@@ -21,6 +21,8 @@ lang: ru
 
 ![Адаптивная таблица](img/adaptive-table.png)
 
+_Рисунок 1 — Адаптивная таблица_
+
 Итак, добавьте в ваш CSS файл следующий код:
 
 ```css
@@ -216,6 +218,8 @@ table.table_adaptive tr.subhead:hover {
 
 ![Адаптивная серая таблица](img/adaptive-grey-table.png)
 
+_Рисунок 2 — Адаптивная серая таблица_
+
 Итак, добавьте в ваш CSS файл следующий код:
 
 ```css
@@ -400,6 +404,8 @@ table.table_adaptive_gray tr.subhead:hover {
 ## Адаптивная классическая таблица
 
 ![Адаптивная классическая таблица](img/adaptive-classic-table.png)
+
+_Рисунок 3 — Адаптивная классическая таблица_
 
 Итак, добавьте в ваш CSS файл следующий код:
 
@@ -586,6 +592,8 @@ table.table_adaptive_classic tr.subhead:hover {
 
 ![Таблица с градиентом](img/features-table.png)
 
+_Рисунок 4 — Таблица с градиентом_
+
 Итак, добавьте в ваш CSS файл следующий код:
 
 ```css
@@ -705,6 +713,8 @@ table.table_adaptive_classic tr.subhead:hover {
 ## Простая таблица
 
 ![Простая таблица](img/simple-little-table.png)
+
+_Рисунок 5 — Простая таблица_
 
 Итак, добавьте в ваш CSS файл следующий код:
 

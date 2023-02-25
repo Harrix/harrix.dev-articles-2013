@@ -79,6 +79,8 @@ kbd.menu {
 
 ![Результат применения стилей](img/kbd-style.png)
 
+_Рисунок 1 — Результат применения стилей_
+
 Живой пример:
 
 <https://codepen.io/Harrix/pen/WKKYNL>

@@ -103,4 +103,6 @@ M_2 = 2^{25178112}
 
 ![Результат компилирования формулы](img/ref.png)
 
+_Рисунок 1 — Результат компилирования формулы_
+
 Более подробно можно прочитать тут: <https://www.tug.org/applications/hyperref/manual.html> или тут <http://en.wikibooks.org/wiki/LaTeX/Hyperlinks>.
