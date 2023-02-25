@@ -88,7 +88,7 @@ _Рисунок 3 — Plugin Manager_
 
 И там выбираем нужный нам плагин.
 
-**Update 2018.** Данный менеджер плагинов был выпилен из Notepad++. Поэтому его нужно устанавливать отдельно. Статью, где описана установка менеджера и остальные плагины, можно найти тут: [Плагины Notepad++](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/notepad-plus-plus-plugins/notepad-plus-plus-plugins.md).
+**Update 2018.** Данный менеджер плагинов был выпилен из Notepad++. Поэтому его нужно устанавливать отдельно. Статью, где описана установка менеджера и остальные плагины, можно найти тут: [Плагины Notepad++](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/notepad-plus-plus-plugins/notepad-plus-plus-plugins.md) <!-- https://harrix.dev/ru/blog/2013/notepad-plus-plus-plugins/ -->.
 
 ## Сортировка выделенных строк
 
@@ -100,7 +100,7 @@ _Рисунок 4 — Сортировка_
 
 ## Проверка орфографии
 
-[Проверка орфографии в Notepad++](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/spell-check-in-notepad/spell-check-in-notepad.md).
+[Проверка орфографии в Notepad++](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/spell-check-in-notepad/spell-check-in-notepad.md) <!-- https://harrix.dev/ru/blog/2014/spell-check-in-notepad/ -->.
 
 ## Автодополнение
 
@@ -212,15 +212,15 @@ _Рисунок 19 — Панель списка документов_
 
 ## Как удалить повторяющиеся строки
 
-Смотрите в [статье](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/remove-duplicate-lines/remove-duplicate-lines.md).
+Смотрите в [статье](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/remove-duplicate-lines/remove-duplicate-lines.md) <!-- https://harrix.dev/ru/blog/2014/remove-duplicate-lines/ -->.
 
 ## Как удалить пустые строки в Notepad++ с помощью горячих клавиш
 
-Смотрите в [статье](https://github.com/Harrix/harrix.dev-blog-2015/blob/main/remove-empty-lines-notepad/remove-empty-lines-notepad.md).
+Смотрите в [статье](https://github.com/Harrix/harrix.dev-blog-2015/blob/main/remove-empty-lines-notepad/remove-empty-lines-notepad.md) <!-- https://harrix.dev/ru/blog/2015/remove-empty-lines-notepad/ -->.
 
 ## Как удалить каждую вторую строку в Notepad++
 
-Смотрите в [статье](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/delete-every-second-line/delete-every-second-line.md).
+Смотрите в [статье](https://github.com/Harrix/harrix.dev-blog-2014/blob/main/delete-every-second-line/delete-every-second-line.md) <!-- https://harrix.dev/ru/blog/2014/delete-every-second-line/ -->.
 
 ## Знаки табуляции
 

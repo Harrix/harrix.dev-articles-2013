@@ -423,7 +423,7 @@ _Рисунок 7 — AddQuicktag_
 
 ## Arconix Shortcodes
 
-Использую интересный плагин [Arconix Shortcodes](https://wordpress.org/plugins/arconix-shortcodes/). Полный обзор я сделал тут: [Обзор плагина Arconix Shortcodes для WordPress](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/arconix-shortcodes/arconix-shortcodes.md)
+Использую интересный плагин [Arconix Shortcodes](https://wordpress.org/plugins/arconix-shortcodes/). Полный обзор я сделал тут: [Обзор плагина Arconix Shortcodes для WordPress](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/arconix-shortcodes/arconix-shortcodes.md) <!-- https://harrix.dev/ru/blog/2013/arconix-shortcodes/ -->
 
 Позволяет делать текстовые блоки:
 

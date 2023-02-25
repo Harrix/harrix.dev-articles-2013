@@ -46,7 +46,7 @@ _Рисунок 2 — Меню Plugin Manager_
 
 _Рисунок 3 — Меню плагина TextFX_
 
-Полный обзор смотрите в статье [Обзор плагина TextFX в Notepad++](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/textfx/textfx.md).
+Полный обзор смотрите в статье [Обзор плагина TextFX в Notepad++](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/textfx/textfx.md) <!-- https://harrix.dev/ru/blog/2013/textfx/ -->.
 
 ## Сортировка чисел
 
