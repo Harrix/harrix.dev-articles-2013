@@ -8,7 +8,7 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-url-src: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/latex-and-illustrator/latex-and-illustrator.md
+permalink-source: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/latex-and-illustrator/latex-and-illustrator.md
 permalink: https://harrix.dev/ru/blog/2013/latex-and-illustrator/
 lang: ru
 ---
@@ -126,14 +126,7 @@ if (latexcode != null) {
       app.activeDocument.activeView.centerPoint[0] - grp.left,
       app.activeDocument.activeView.centerPoint[1] - grp.top
     );
-  } else
-    alert(
-      "File " +
-        temppath +
-        "\\" +
-        pdffile.name +
-        " could not be created. LaTeX error?"
-    );
+  } else alert("File " + temppath + "\\" + pdffile.name + " could not be created. LaTeX error?");
 }
 ```
 
