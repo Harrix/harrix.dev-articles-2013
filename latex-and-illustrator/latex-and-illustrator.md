@@ -126,7 +126,14 @@ if (latexcode != null) {
       app.activeDocument.activeView.centerPoint[0] - grp.left,
       app.activeDocument.activeView.centerPoint[1] - grp.top
     );
-  } else alert("File " + temppath + "\\" + pdffile.name + " could not be created. LaTeX error?");
+  } else
+    alert(
+      "File " +
+        temppath +
+        "\\" +
+        pdffile.name +
+        " could not be created. LaTeX error?"
+    );
 }
 ```
 

@@ -70,7 +70,10 @@ kbd.menu {
 ```html
 <p>Нажмите клавиши <kbd>Ctrl</kbd> + <kbd>Ё</kbd></p>
 
-<p>Пройдите в меню программы <kbd class="menu">Preferences</kbd> → <kbd class="menu">Package Control</kbd></p>
+<p>
+  Пройдите в меню программы <kbd class="menu">Preferences</kbd> →
+  <kbd class="menu">Package Control</kbd>
+</p>
 ```
 
 В итоге вы получите такой результат.
