@@ -11,6 +11,14 @@ license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 permalink-source: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/tools-used-in-blog/tools-used-in-blog.md
 permalink: https://harrix.dev/ru/blog/2013/tools-used-in-blog/
 lang: ru
+attribution:
+  - author: WordPress
+    author-site: https://wordpress.org/
+    license: GNU General Public License
+    license-url: https://en.wikipedia.org/wiki/GNU_General_Public_License
+    permalink: https://commons.wikimedia.org/wiki/File:Wordpress-Logo.svg
+    permalink-date: 2019-03-17
+    name: Wordpress-Logo.svg
 ---
 
 # Инструменты, использованные в блоге на Wordpress. Часть 1
