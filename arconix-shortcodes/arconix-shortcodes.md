@@ -160,6 +160,12 @@ _Рисунок 15 — Блок с оранжевой заливкой и ико
 
 <video controls autoplay loop muted src="img/toggle_01.mp4"></video>
 
+img/toggle_01.mp4
+
+https://github.com/Harrix/harrix.dev-blog-2013/blob/main/arconix-shortcodes/img/toggle_01.mp4
+
+https://github.com/Harrix/harrix.dev-blog-2013/raw/main/arconix-shortcodes/img/toggle_01.mp4
+
 ![DELETE](img/toggle_01.delete.gif)
 
 _Рисунок 16 — DELETE_
