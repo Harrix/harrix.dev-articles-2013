@@ -8,20 +8,12 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/tools-used-in-blog/tools-used-in-blog.md
-permalink: https://harrix.dev/ru/blog/2013/tools-used-in-blog/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2013/blob/main/tools-used-in-blog/tools-used-in-blog.md
+permalink: https://harrix.dev/ru/articles/2013/tools-used-in-blog/
 lang: ru
 attribution:
-  - {
-      author: WordPress,
-      author-site: "https://wordpress.org/",
-      license: GNU General
-        Public License,
-      license-url: "https://en.wikipedia.org/wiki/GNU_General_Public_License",
-      permalink: "https://commons.wikimedia.org/wiki/File:Wordpress-Logo.svg",
-      permalink-date: 2019-03-17,
-      name: Wordpress-Logo.svg,
-    }
+  - { author: WordPress, author-site: "https://wordpress.org/", license: GNU General
+        Public License, license-url: "https://en.wikipedia.org/wiki/GNU_General_Public_License", permalink: "https://commons.wikimedia.org/wiki/File:Wordpress-Logo.svg", permalink-date: 2019-03-17, name: Wordpress-Logo.svg }
 ---
 
 # Инструменты, использованные в блоге на Wordpress. Часть 1
@@ -434,7 +426,7 @@ _Рисунок 7 — AddQuicktag_
 
 ## Arconix Shortcodes
 
-Использую интересный плагин [Arconix Shortcodes](https://wordpress.org/plugins/arconix-shortcodes/). Полный обзор я сделал тут: [Обзор плагина Arconix Shortcodes для WordPress](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/arconix-shortcodes/arconix-shortcodes.md) <!-- https://harrix.dev/ru/blog/2013/arconix-shortcodes/ -->
+Использую интересный плагин [Arconix Shortcodes](https://wordpress.org/plugins/arconix-shortcodes/). Полный обзор я сделал тут: [Обзор плагина Arconix Shortcodes для WordPress](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/arconix-shortcodes/arconix-shortcodes.md) <!-- https://harrix.dev/ru/articles/2013/arconix-shortcodes/ -->
 
 Позволяет делать текстовые блоки:
 

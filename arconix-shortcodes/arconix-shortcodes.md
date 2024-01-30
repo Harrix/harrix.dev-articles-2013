@@ -7,8 +7,8 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/arconix-shortcodes/arconix-shortcodes.md
-permalink: https://harrix.dev/ru/blog/2013/arconix-shortcodes/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2013/blob/main/arconix-shortcodes/arconix-shortcodes.md
+permalink: https://harrix.dev/ru/articles/2013/arconix-shortcodes/
 lang: ru
 ---
 
@@ -162,9 +162,9 @@ _Рисунок 15 — Блок с оранжевой заливкой и ико
 
 img/toggle_01.mp4
 
-https://github.com/Harrix/harrix.dev-blog-2013/blob/main/arconix-shortcodes/img/toggle_01.mp4
+https://github.com/Harrix/harrix.dev-articles-2013/blob/main/arconix-shortcodes/img/toggle_01.mp4
 
-https://github.com/Harrix/harrix.dev-blog-2013/raw/main/arconix-shortcodes/img/toggle_01.mp4
+https://github.com/Harrix/harrix.dev-articles-2013/raw/main/arconix-shortcodes/img/toggle_01.mp4
 
 ![DELETE](img/toggle_01.delete.gif)
 
@@ -327,8 +327,7 @@ _Рисунок 31 — Кнопка контурная_
 _Рисунок 32 — Кнопка классическая, оранжевая и большая_
 
 ```html
-[button url="http://blog.harrix.org" color="black" size="small"
-target="blank"]Кнопка[/button]
+[button url="http://blog.harrix.org" color="black" size="small" target="blank"]Кнопка[/button]
 ```
 
 _Рис. Кнопка классическая, черная и маленькая_
@@ -340,9 +339,8 @@ _Рисунок 33 — Кнопка классическая, черная и м
 ## Вкладки
 
 ```html
-[tabs] [tab title="Вкладка 1"] Первый блок информации [/tab] [tab title="Вкладка
-2"] Второй блок информации [/tab] [tab title="Вкладка 3"] Третий блок информации
-[/tab] [/tabs]
+[tabs] [tab title="Вкладка 1"] Первый блок информации [/tab] [tab title="Вкладка 2"] Второй блок информации [/tab] [tab
+title="Вкладка 3"] Третий блок информации [/tab] [/tabs]
 ```
 
 ![Вкладки](img/tabs.png)

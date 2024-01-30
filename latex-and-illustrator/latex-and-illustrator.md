@@ -2,14 +2,14 @@
 date: 2013-04-18
 categories: [it, tex]
 tags: [LaTeX]
-download: https://github.com/Harrix/harrix.dev-blog-2013/raw/main/latex-and-illustrator/files/LaTeX.zip
+download: https://github.com/Harrix/harrix.dev-articles-2013/raw/main/latex-and-illustrator/files/LaTeX.zip
 update: 2018
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/latex-and-illustrator/latex-and-illustrator.md
-permalink: https://harrix.dev/ru/blog/2013/latex-and-illustrator/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2013/blob/main/latex-and-illustrator/latex-and-illustrator.md
+permalink: https://harrix.dev/ru/articles/2013/latex-and-illustrator/
 lang: ru
 ---
 
@@ -126,14 +126,7 @@ if (latexcode != null) {
       app.activeDocument.activeView.centerPoint[0] - grp.left,
       app.activeDocument.activeView.centerPoint[1] - grp.top
     );
-  } else
-    alert(
-      "File " +
-        temppath +
-        "\\" +
-        pdffile.name +
-        " could not be created. LaTeX error?"
-    );
+  } else alert("File " + temppath + "\\" + pdffile.name + " could not be created. LaTeX error?");
 }
 ```
 

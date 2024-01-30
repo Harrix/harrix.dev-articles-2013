@@ -7,8 +7,8 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/notepad-plus-plus-plugins/notepad-plus-plus-plugins.md
-permalink: https://harrix.dev/ru/blog/2013/notepad-plus-plus-plugins/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2013/blob/main/notepad-plus-plus-plugins/notepad-plus-plus-plugins.md
+permalink: https://harrix.dev/ru/articles/2013/notepad-plus-plus-plugins/
 lang: ru
 ---
 
@@ -46,7 +46,7 @@ _Рисунок 2 — Меню Plugin Manager_
 
 _Рисунок 3 — Меню плагина TextFX_
 
-Полный обзор смотрите в статье [Обзор плагина TextFX в Notepad++](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/textfx/textfx.md) <!-- https://harrix.dev/ru/blog/2013/textfx/ -->.
+Полный обзор смотрите в статье [Обзор плагина TextFX в Notepad++](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/textfx/textfx.md) <!-- https://harrix.dev/ru/articles/2013/textfx/ -->.
 
 ## Сортировка чисел
 

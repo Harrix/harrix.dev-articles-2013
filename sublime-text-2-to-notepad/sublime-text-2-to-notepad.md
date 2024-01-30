@@ -7,8 +7,8 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2013/blob/main/sublime-text-2-to-notepad/sublime-text-2-to-notepad.md
-permalink: https://harrix.dev/ru/blog/2013/sublime-text-2-to-notepad/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2013/blob/main/sublime-text-2-to-notepad/sublime-text-2-to-notepad.md
+permalink: https://harrix.dev/ru/articles/2013/sublime-text-2-to-notepad/
 lang: ru
 ---
 
@@ -27,7 +27,7 @@ lang: ru
 - русский язык корректно отображается;
 - менеджер пакетов установлен.
 
-Посмотреть базовые настройки можно в статье [Первоначальная настройка Sublime Text 2](https://github.com/Harrix/harrix.dev-blog-2013/blob/main/initial-setup-sublime-text-2/initial-setup-sublime-text-2.md) <!-- https://harrix.dev/ru/blog/2013/initial-setup-sublime-text-2/ -->.
+Посмотреть базовые настройки можно в статье [Первоначальная настройка Sublime Text 2](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/initial-setup-sublime-text-2/initial-setup-sublime-text-2.md) <!-- https://harrix.dev/ru/articles/2013/initial-setup-sublime-text-2/ -->.
 
 Итак, пойдем по порядку тех возможностей и деталей, которые мы можем переделать и настроить в Sublime Text 2.
 
