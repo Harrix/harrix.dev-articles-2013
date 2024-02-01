@@ -29,7 +29,7 @@ attribution:
 \usepackage{pscyr} % Нормальные шрифты
 ```
 
-Как подключить модуль Pscyr, читайте [тут](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/pscyr/pscyr.md) <!-- https://harrix.dev/ru/articles/2018/pscyr/ -->.
+Как подключить модуль Pscyr, читайте [тут](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/pscyr/pscyr.md)<!-- https://harrix.dev/ru/articles/2018/pscyr/ -->.
 
 После этого прописываете следующие настройки:
 

@@ -15,13 +15,13 @@ lang: ru
 
 ![Featured image](featured-image.svg)
 
-В прошлой [статье](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/latex-highlight-cyrillic/latex-highlight-cyrillic.md) <!-- https://harrix.dev/ru/articles/2013/latex-highlight-cyrillic/ --> писал о подсветке синтаксиса, но иногда надо нарисовать псевдокод в красивой форме. Что делать?
+В прошлой [статье](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/latex-highlight-cyrillic/latex-highlight-cyrillic.md)<!-- https://harrix.dev/ru/articles/2013/latex-highlight-cyrillic/ --> писал о подсветке синтаксиса, но иногда надо нарисовать псевдокод в красивой форме. Что делать?
 
 ---
 
 **Внимание!** <!-- !important -->
 
-Если планируете использовать пакет для отображения алгоритмов больше одной страницы в длину, то откажитесь от него, так как он не приспособлен для разрезания алгоритмов по страницам. Используйте лучше пакет [algorithmicx](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/algorithmicx-cyrillic/algorithmicx-cyrillic.md) <!-- https://harrix.dev/ru/articles/2013/algorithmicx-cyrillic/ -->.
+Если планируете использовать пакет для отображения алгоритмов больше одной страницы в длину, то откажитесь от него, так как он не приспособлен для разрезания алгоритмов по страницам. Используйте лучше пакет [algorithmicx](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/algorithmicx-cyrillic/algorithmicx-cyrillic.md)<!-- https://harrix.dev/ru/articles/2013/algorithmicx-cyrillic/ -->.
 
 ---
 
