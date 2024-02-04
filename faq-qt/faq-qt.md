@@ -349,7 +349,7 @@ for (int i = 0; i < 1000; i++)
 }
 ```
 
-Но разумеется, что лучше [использовать потоки](https://github.com/Harrix/harrix.dev-articles-2016/blob/main/using-qthread/using-qthread.md)<!-- https://harrix.dev/ru/articles/2016/using-qthread/ --> для этого.
+Но разумеется, что лучше [использовать потоки](https://github.com/Harrix/harrix.dev-articles-2016/blob/main/using-qthread/using-qthread.md) | [🡥](https://harrix.dev/ru/articles/2016/using-qthread/) для этого.
 
 ## Как получить расширение файла по его имени
 
@@ -532,7 +532,7 @@ bool copyFile(QString filename, QString dir)
 
 Как сделать так, чтобы элементы растягивались под размер окна в Gui Application?
 
-Читайте тут: [Аналог Align alClient в Qt Gui Application](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/analog-align-alclient-in-qt/analog-align-alclient-in-qt.md)<!-- https://harrix.dev/ru/articles/2013/analog-align-alclient-in-qt/ -->.
+Читайте тут: [Аналог Align alClient в Qt Gui Application](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/analog-align-alclient-in-qt/analog-align-alclient-in-qt.md) | [🡥](https://harrix.dev/ru/articles/2013/analog-align-alclient-in-qt/).
 
 ## Как поставить режим readonly для textEdit
 
@@ -693,17 +693,17 @@ str.replace(str.indexOf(subStr), subStr.size(), newStr);
 
 ## Как установить Qt
 
-[Установка Qt](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/install-qt-mingw/install-qt-mingw.md)<!-- https://harrix.dev/ru/articles/2018/install-qt-mingw/ -->
+[Установка Qt](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/install-qt-mingw/install-qt-mingw.md) | [🡥](https://harrix.dev/ru/articles/2018/install-qt-mingw/)
 
-[Установка Qt под Visual Studio, MinGW и для разработки под Android](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/install-qt-advanced/install-qt-advanced.md)<!-- https://harrix.dev/ru/articles/2018/install-qt-advanced/ -->
+[Установка Qt под Visual Studio, MinGW и для разработки под Android](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/install-qt-advanced/install-qt-advanced.md) | [🡥](https://harrix.dev/ru/articles/2018/install-qt-advanced/)
 
 ## Как подключиться к базе данных в Microsoft SQL Server 2012 в Qt
 
-Смотрите в [статье](https://github.com/Harrix/harrix.dev-articles-2014/blob/main/connect-to-sql-server-in-qt/connect-to-sql-server-in-qt.md)<!-- https://harrix.dev/ru/articles/2014/connect-to-sql-server-in-qt/ -->.
+Смотрите в [статье](https://github.com/Harrix/harrix.dev-articles-2014/blob/main/connect-to-sql-server-in-qt/connect-to-sql-server-in-qt.md) | [🡥](https://harrix.dev/ru/articles/2014/connect-to-sql-server-in-qt/).
 
 ## Как вывести данные в tableView в Qt
 
-Смотрите в [статье](https://github.com/Harrix/harrix.dev-articles-2014/blob/main/output-data-to-qtableview/output-data-to-qtableview.md)<!-- https://harrix.dev/ru/articles/2014/output-data-to-qtableview/ -->.
+Смотрите в [статье](https://github.com/Harrix/harrix.dev-articles-2014/blob/main/output-data-to-qtableview/output-data-to-qtableview.md) | [🡥](https://harrix.dev/ru/articles/2014/output-data-to-qtableview/).
 
 ## Как сделать tableView только для чтения (ReadOnly)
 
@@ -715,19 +715,19 @@ ui->tableView->setEditTriggers(QTableWidget::NoEditTriggers);
 
 ## Как сохранить данные из QTextEdit в ODF
 
-Читать [статью](https://github.com/Harrix/harrix.dev-articles-2014/blob/main/save-from-qtextedit-to-odf/save-from-qtextedit-to-odf.md)<!-- https://harrix.dev/ru/articles/2014/save-from-qtextedit-to-odf/ -->.
+Читать [статью](https://github.com/Harrix/harrix.dev-articles-2014/blob/main/save-from-qtextedit-to-odf/save-from-qtextedit-to-odf.md) | [🡥](https://harrix.dev/ru/articles/2014/save-from-qtextedit-to-odf/).
 
 ## Как сохранять из QTableView данные в CSV формат
 
-Читать [статью](https://github.com/Harrix/harrix.dev-articles-2014/blob/main/save-from-qtableview-to-csv/save-from-qtableview-to-csv.md)<!-- https://harrix.dev/ru/articles/2014/save-from-qtableview-to-csv/ -->.
+Читать [статью](https://github.com/Harrix/harrix.dev-articles-2014/blob/main/save-from-qtableview-to-csv/save-from-qtableview-to-csv.md) | [🡥](https://harrix.dev/ru/articles/2014/save-from-qtableview-to-csv/).
 
 ## Как проиграть mp3 файл
 
-Прочитать можно в [статье](https://github.com/Harrix/harrix.dev-articles-2014/blob/main/how-to-play-mp3-in-qt/how-to-play-mp3-in-qt.md)<!-- https://harrix.dev/ru/articles/2014/how-to-play-mp3-in-qt/ -->.
+Прочитать можно в [статье](https://github.com/Harrix/harrix.dev-articles-2014/blob/main/how-to-play-mp3-in-qt/how-to-play-mp3-in-qt.md) | [🡥](https://harrix.dev/ru/articles/2014/how-to-play-mp3-in-qt/).
 
 ## Как рисовать графики в Qt
 
-[Графики в Qt через QCustomPlot](https://github.com/Harrix/harrix.dev-articles-2014/blob/main/qcustomplot/qcustomplot.md)<!-- https://harrix.dev/ru/articles/2014/qcustomplot/ -->
+[Графики в Qt через QCustomPlot](https://github.com/Harrix/harrix.dev-articles-2014/blob/main/qcustomplot/qcustomplot.md) | [🡥](https://harrix.dev/ru/articles/2014/qcustomplot/)
 
 ## Как сделать приложение, которое бы не разворачивалось
 

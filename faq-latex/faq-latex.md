@@ -67,37 +67,37 @@ TeXstudio — это только редактор кода. За компиля
 \usepackage{pscyr} % Нормальные шрифты
 ```
 
-Вот тут говорится, как установить модуль Pscyr: [Установка PSCyr для LaTeX](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/pscyr/pscyr.md)<!-- https://harrix.dev/ru/articles/2018/pscyr/ -->.
+Вот тут говорится, как установить модуль Pscyr: [Установка PSCyr для LaTeX](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/pscyr/pscyr.md) | [🡥](https://harrix.dev/ru/articles/2018/pscyr/).
 
 ## Как поставить логотип на титульной странице в LaTeX типа article
 
-Читайте тут: [Логотип на титульной странице в LaTeX](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/logo-on-title-page-latex/logo-on-title-page-latex.md)<!-- https://harrix.dev/ru/articles/2013/logo-on-title-page-latex/ -->.
+Читайте тут: [Логотип на титульной странице в LaTeX](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/logo-on-title-page-latex/logo-on-title-page-latex.md) | [🡥](https://harrix.dev/ru/articles/2013/logo-on-title-page-latex/).
 
 ## Как установить модуль PSCyr
 
-Читайте тут: [Установка PSCyr для LaTeX](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/pscyr/pscyr.md)<!-- https://harrix.dev/ru/articles/2018/pscyr/ -->.
+Читайте тут: [Установка PSCyr для LaTeX](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/pscyr/pscyr.md) | [🡥](https://harrix.dev/ru/articles/2018/pscyr/).
 
 ## Как сделать гиперссылки в LaTeX
 
-Читайте тут: [Ссылки и гиперссылки в LaTeX](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/latex-links-and-hyperlinks/latex-links-and-hyperlinks.md)<!-- https://harrix.dev/ru/articles/2013/latex-links-and-hyperlinks/ -->.
+Читайте тут: [Ссылки и гиперссылки в LaTeX](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/latex-links-and-hyperlinks/latex-links-and-hyperlinks.md) | [🡥](https://harrix.dev/ru/articles/2013/latex-links-and-hyperlinks/).
 
 ## Как сделать проверку орфографии в LaTeX
 
-Читайте тут: [Проверка орфографии в TeXstudio](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/spell-check-in-texstudio/spell-check-in-texstudio.md)<!-- https://harrix.dev/ru/articles/2013/spell-check-in-texstudio/ -->.
+Читайте тут: [Проверка орфографии в TeXstudio](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/spell-check-in-texstudio/spell-check-in-texstudio.md) | [🡥](https://harrix.dev/ru/articles/2013/spell-check-in-texstudio/).
 
 ## Как оформить псевдокод в LaTeX
 
-Читайте тут: [Псевдокод в LaTeX для русского текста — algorithm2e](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/algorithm2e-cyrillic/algorithm2e-cyrillic.md)<!-- https://harrix.dev/ru/articles/2013/algorithm2e-cyrillic/ -->.
+Читайте тут: [Псевдокод в LaTeX для русского текста — algorithm2e](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/algorithm2e-cyrillic/algorithm2e-cyrillic.md) | [🡥](https://harrix.dev/ru/articles/2013/algorithm2e-cyrillic/).
 
-Но лучше тут: [Псевдокод в LaTeX для русского текста — algorithmicx](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/algorithmicx-cyrillic/algorithmicx-cyrillic.md)<!-- https://harrix.dev/ru/articles/2013/algorithmicx-cyrillic/ -->
+Но лучше тут: [Псевдокод в LaTeX для русского текста — algorithmicx](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/algorithmicx-cyrillic/algorithmicx-cyrillic.md) | [🡥](https://harrix.dev/ru/articles/2013/algorithmicx-cyrillic/)
 
 ## Как оформить подсветку синтаксиса с кириллицей в LaTeX
 
-Читайте тут: [Подсветка синтаксиса в LaTeX с кириллицей](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/latex-highlight-cyrillic/latex-highlight-cyrillic.md)<!-- https://harrix.dev/ru/articles/2013/latex-highlight-cyrillic/ -->.
+Читайте тут: [Подсветка синтаксиса в LaTeX с кириллицей](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/latex-highlight-cyrillic/latex-highlight-cyrillic.md) | [🡥](https://harrix.dev/ru/articles/2013/latex-highlight-cyrillic/).
 
 ## Как убрать отступ у списка itemize перед предыдущим текстом
 
-Читайте тут: [Как убрать отступ у списка itemize перед предыдущим текстом](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/remove-indent-of-itemize/remove-indent-of-itemize.md)<!-- https://harrix.dev/ru/articles/2013/remove-indent-of-itemize/ -->.
+Читайте тут: [Как убрать отступ у списка itemize перед предыдущим текстом](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/remove-indent-of-itemize/remove-indent-of-itemize.md) | [🡥](https://harrix.dev/ru/articles/2013/remove-indent-of-itemize/).
 
 ## Как вставить обратный слэш
 
@@ -123,7 +123,7 @@ $\sim$
 
 ## Как оформлять список литературы в LaTeX
 
-Читать тут: [Как оформлять список литературы в LaTeX](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/bibliography-in-latex/bibliography-in-latex.md)<!-- https://harrix.dev/ru/articles/2013/bibliography-in-latex/ -->.
+Читать тут: [Как оформлять список литературы в LaTeX](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/bibliography-in-latex/bibliography-in-latex.md) | [🡥](https://harrix.dev/ru/articles/2013/bibliography-in-latex/).
 
 ## Какой символ использовать для знака транспонирования
 
@@ -211,12 +211,12 @@ _Рисунок 1 — Сравнение двух вариантов знака 
 
 ## Как LaTeX текст вставить в Illustrator
 
-Читайте в статье [LaTeX и Illustrator](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/latex-and-illustrator/latex-and-illustrator.md)<!-- https://harrix.dev/ru/articles/2013/latex-and-illustrator/ -->
+Читайте в статье [LaTeX и Illustrator](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/latex-and-illustrator/latex-and-illustrator.md) | [🡥](https://harrix.dev/ru/articles/2013/latex-and-illustrator/)
 
 ## Как оформить двойной индекс в формулах
 
-Читайте в статье [Двойной индекс в LaTeX](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/double-index-in-latex/double-index-in-latex.md)<!-- https://harrix.dev/ru/articles/2013/double-index-in-latex/ -->.
+Читайте в статье [Двойной индекс в LaTeX](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/double-index-in-latex/double-index-in-latex.md) | [🡥](https://harrix.dev/ru/articles/2013/double-index-in-latex/).
 
 ## При компиляции возникает ошибка «TeX capacity exceeded, sorry [main memory size=3000000]»
 
-Настройте MiKTeX как указано в статье [Установка и настройка программ для редактирования LaTeX файлов](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/install-latex/install-latex.md)<!-- https://harrix.dev/ru/articles/2018/install-latex/ -->. Это увеличит объем памяти для компиляции LaTeX файлов.
+Настройте MiKTeX как указано в статье [Установка и настройка программ для редактирования LaTeX файлов](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/install-latex/install-latex.md) | [🡥](https://harrix.dev/ru/articles/2018/install-latex/). Это увеличит объем памяти для компиляции LaTeX файлов.
