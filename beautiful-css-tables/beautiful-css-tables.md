@@ -606,7 +606,14 @@ _Рисунок 4 — Таблица с градиентом_
   color: #2a2a2a;
   background: #fafafa;
   background-image: -moz-linear-gradient(top, #fff, #eaeaea, #fff);
-  background-image: -webkit-gradient(linear, center bottom, center top, from(#fff), color-stop(0.5, #eaeaea), to(#fff));
+  background-image: -webkit-gradient(
+    linear,
+    center bottom,
+    center top,
+    from(#fff),
+    color-stop(0.5, #eaeaea),
+    to(#fff)
+  );
   margin: 20px auto;
 }
 
@@ -742,7 +749,13 @@ _Рисунок 5 — Простая таблица_
   border-top: 1px solid #fafafa;
   border-bottom: 1px solid #e0e0e0;
   background: #ededed;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ededed),
+    to(#ebebeb)
+  );
   background: -moz-linear-gradient(top, #ededed, #ebebeb);
 }
 
@@ -776,13 +789,25 @@ _Рисунок 5 — Простая таблица_
   border-bottom: 1px solid #e0e0e0;
   border-left: 1px solid #e0e0e0;
   background: #fafafa;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fbfbfb),
+    to(#fafafa)
+  );
   background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
 }
 
 .simple-little-table tr:nth-child(even) td {
   background: #f6f6f6;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f8f8f8),
+    to(#f6f6f6)
+  );
   background: -moz-linear-gradient(top, #f8f8f8, #f6f6f6);
 }
 
@@ -800,7 +825,13 @@ _Рисунок 5 — Простая таблица_
 
 .simple-little-table tr:hover td {
   background: #f2f2f2;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f2f2f2),
+    to(#f0f0f0)
+  );
   background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
 }
 
