@@ -170,25 +170,15 @@ _Рисунок 15 — Блок с оранжевой заливкой и ико
 [toggle title="Спойлер"]Текст спойлера[/toggle]
 ```
 
-<video controls autoplay loop muted src="img/toggle_01.mp4"></video>
+![Спойлеры](img/toggle_01.avif)
 
-img/toggle_01.mp4
-
-https://github.com/Harrix/harrix.dev-articles-2013/blob/main/arconix-shortcodes/img/toggle_01.mp4
-
-https://github.com/Harrix/harrix.dev-articles-2013/raw/main/arconix-shortcodes/img/toggle_01.mp4
-
-![DELETE](img/toggle_01.delete.gif)
-
-_Рисунок 16 — DELETE_
+_Рисунок 16 — Спойлеры_
 
 Или вот так нагляднее:
 
-<video controls autoplay loop muted src="img/toggle_02.mp4"></video>
+![Спойлеры](img/toggle_02.avif)
 
-![DELETE](img/toggle_02.delete.gif)
-
-_Рисунок 17 — DELETE_
+_Рисунок 17 — Спойлеры_
 
 ## Кнопки
 
@@ -369,11 +359,9 @@ _Рисунок 34 — Вкладки_
 [abbr title="По моему скромному мнению"]ИМХО[/abbr]
 ```
 
-<video controls autoplay loop muted src="img/abbr.mp4"></video>
+![Пояснение при наведении на слово](img/abbr.avif)
 
-![DELETE](img/abbr.delete.gif)
-
-_Рисунок 35 — DELETE_
+_Рисунок 35 — Пояснение при наведении на слово_
 
 ### Выделенный текст
 
@@ -391,11 +379,9 @@ _Рисунок 36 — Выделенный текст_
 [site-link]
 ```
 
-<video controls autoplay loop muted src="img/site-link.mp4"></video>
+![Ссылка на ваш сайт](img/site-link.avif)
 
-![DELETE](img/site-link.delete.gif)
-
-_Рисунок 37 — DELETE_
+_Рисунок 37 — Ссылка на ваш сайт_
 
 ### Данные о текущем годе
 
@@ -413,10 +399,8 @@ _Рисунок 38 — Данные о текущем годе_
 [wp-link]
 ```
 
-<video controls autoplay loop muted src="img/wp-link.mp4"></video>
+![Ссылка на сайт Wordpress](img/wp-link.avif)
 
-![DELETE](img/wp-link.delete.gif)
-
-_Рисунок 39 — DELETE_
+_Рисунок 39 — Ссылка на сайт Wordpress_
 
 Более подробную исходную документацию можете прочитать тут: <https://www.tychesoftwares.com/docs/docs/shortcodes/>.
