@@ -1,7 +1,10 @@
 ---
 date: 2013-04-03
-categories: [it, tex]
-tags: [LaTeX]
+categories:
+  - it
+  - tex
+tags:
+  - LaTeX
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
@@ -10,16 +13,13 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2013/blob/main/l
 permalink: https://harrix.dev/ru/articles/2013/latex-highlight-cyrillic/
 lang: ru
 attribution:
-  - {
-      author: EmilJ,
-      author-site: "https://commons.wikimedia.org/wiki/User:EmilJ",
-      license: GNU
-        General Public License,
-      license-url: "https://en.wikipedia.org/wiki/GNU_General_Public_License",
-      permalink: "https://commons.wikimedia.org/wiki/File:LaTeX_logo.svg",
-      permalink-date: 2019-03-17,
-      name: LaTeX logo.svg,
-    }
+  - author: EmilJ
+    author-site: https://commons.wikimedia.org/wiki/User:EmilJ
+    license: GNU General Public License
+    license-url: https://en.wikipedia.org/wiki/GNU_General_Public_License
+    permalink: https://commons.wikimedia.org/wiki/File:LaTeX_logo.svg
+    permalink-date: 2019-03-17
+    name: LaTeX logo.svg
 ---
 
 # Подсветка синтаксиса в LaTeX с кириллицей

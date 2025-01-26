@@ -1,7 +1,10 @@
 ---
 date: 2013-04-18
-categories: [it, tex]
-tags: [LaTeX]
+categories:
+  - it
+  - tex
+tags:
+  - LaTeX
 download: https://github.com/Harrix/harrix.dev-articles-2013/raw/main/latex-and-illustrator/files/LaTeX.zip
 update: 2018
 author: Anton Sergienko

@@ -1,7 +1,11 @@
 ---
 date: 2013-10-24
-categories: [it, program]
-tags: [Qt, Qt Creator]
+categories:
+  - it
+  - program
+tags:
+  - Qt
+  - Qt Creator
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0

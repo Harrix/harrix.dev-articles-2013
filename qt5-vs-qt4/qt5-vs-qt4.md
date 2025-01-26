@@ -1,7 +1,13 @@
 ---
 date: 2013-02-21
-categories: [it, programming]
-tags: [Qt, QtQuick, QML, C++]
+categories:
+  - it
+  - programming
+tags:
+  - Qt
+  - QtQuick
+  - QML
+  - C++
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0

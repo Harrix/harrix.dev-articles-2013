@@ -1,7 +1,12 @@
 ---
 date: 2013-05-05
-categories: [it, programming]
-tags: [Qt, C++ Builder, Qt Gui]
+categories:
+  - it
+  - programming
+tags:
+  - Qt
+  - C++ Builder
+  - Qt Gui
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0

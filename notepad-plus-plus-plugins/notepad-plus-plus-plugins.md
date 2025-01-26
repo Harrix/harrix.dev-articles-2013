@@ -1,7 +1,11 @@
 ---
 date: 2013-01-30
-categories: [it, program]
-tags: [Notepad++, Текстовой редактор]
+categories:
+  - it
+  - program
+tags:
+  - Notepad++
+  - Текстовой редактор
 update: 2018-07-30
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com

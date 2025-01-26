@@ -1,7 +1,9 @@
 ---
 date: 2013-01-04
-categories: [it]
-tags: [Рассуждения]
+categories:
+  - it
+tags:
+  - Рассуждения
 latex: true
 update: 2018-07-01
 author: Anton Sergienko
