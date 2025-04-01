@@ -22,13 +22,16 @@ lang: ru
 
 Как добавлять LaTeX формулы в Illustrator? Об этом идет речь в статье.
 
-## Содержание
+<details>
+<summary>📖 Содержание</summary>
 
 - [Исходные данные](#исходные-данные)
 - [Шрифты](#шрифты)
 - [Настройка Illustrator](#настройка-illustrator)
 - [Работа Illustrator](#работа-illustrator)
 - [Неприятные моменты](#неприятные-моменты)
+
+</details>
 
 ## Исходные данные
 
@@ -113,7 +116,7 @@ if (latexcode != null) {
       temppath +
       " " +
       temppath +
-      "\\latex2illustrator.tex",
+      "\\latex2illustrator.tex"
   );
   //batchfile.writeln(''pause'');
   batchfile.writeln("del " + temppath + "\\latex2illustrator.bat");
@@ -135,16 +138,9 @@ if (latexcode != null) {
     // Move the imported objects to the center of the current view.
     grp.translate(
       app.activeDocument.activeView.centerPoint[0] - grp.left,
-      app.activeDocument.activeView.centerPoint[1] - grp.top,
+      app.activeDocument.activeView.centerPoint[1] - grp.top
     );
-  } else
-    alert(
-      "File " +
-        temppath +
-        "\\" +
-        pdffile.name +
-        " could not be created. LaTeX error?",
-    );
+  } else alert("File " + temppath + "\\" + pdffile.name + " could not be created. LaTeX error?");
 }
 ```
 
