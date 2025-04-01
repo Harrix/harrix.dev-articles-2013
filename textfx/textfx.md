@@ -25,6 +25,8 @@ lang: ru
 <details>
 <summary>📖 Содержание</summary>
 
+## Содержание
+
 - [Установка Plugin Manager](#установка-plugin-manager)
 - [Установка TextFX](#установка-textfx)
 - [TextFX Characters](#textfx-characters)
