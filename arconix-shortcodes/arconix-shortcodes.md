@@ -339,7 +339,8 @@ _Рисунок 31 — Кнопка контурная_
 _Рисунок 32 — Кнопка классическая, оранжевая и большая_
 
 ```html
-[button url="http://blog.harrix.org" color="black" size="small" target="blank"]Кнопка[/button]
+[button url="http://blog.harrix.org" color="black" size="small"
+target="blank"]Кнопка[/button]
 ```
 
 _Рис. Кнопка классическая, черная и маленькая_
@@ -351,8 +352,9 @@ _Рисунок 33 — Кнопка классическая, черная и м
 ## Вкладки
 
 ```html
-[tabs] [tab title="Вкладка 1"] Первый блок информации [/tab] [tab title="Вкладка 2"] Второй блок информации [/tab] [tab
-title="Вкладка 3"] Третий блок информации [/tab] [/tabs]
+[tabs] [tab title="Вкладка 1"] Первый блок информации [/tab] [tab title="Вкладка
+2"] Второй блок информации [/tab] [tab title="Вкладка 3"] Третий блок информации
+[/tab] [/tabs]
 ```
 
 ![Вкладки](img/tabs.png)
