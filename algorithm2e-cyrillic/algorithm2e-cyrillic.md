@@ -21,7 +21,7 @@ lang: ru
 В прошлой [статье](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/latex-highlight-cyrillic/latex-highlight-cyrillic.md) | [↗️](https://harrix.dev/ru/articles/2013/latex-highlight-cyrillic/) писал о подсветке синтаксиса, но иногда надо нарисовать псевдокод в красивой форме. Что делать?
 
 <details>
-<summary>📖 Содержание</summary>
+<summary>📖 Содержание ⬇️</summary>
 
 ## Содержание
 
