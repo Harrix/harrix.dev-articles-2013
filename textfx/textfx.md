@@ -196,7 +196,7 @@ lang: ru
 
 Исследования проводились в Windows 7 x64 в Notepad++ v.6.2.3 (UNICODE). И да x64 версии у него нет.
 
-## Установка **Plugin** [Manager](https://habr.com/ru/articles/)
+## Установка Plugin Manager
 
 Создатель Notepad++ выпилил Plugin Manager из программы несколько лет назад (пишу в 2018) из-за наличия рекламы в данном инструменте. Поэтому его нужно устанавливать отдельно с официального репозитория: <https://github.com/bruderstein/nppPluginManager/releases>:
 
