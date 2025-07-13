@@ -27,7 +27,7 @@ lang: ru
 
 ## Содержание
 
-- [Установка **Plugin** [Manager](https://habr.com/ru/articles/)](#установка-plugin-manager)
+- [Установка Plugin Manager](#установка-plugin-manager)
 - [Установка TextFX](#установка-textfx)
 - [TextFX Characters](#textfx-characters)
   - [`Convert quotes to "`](#convert-quotes-to-)
