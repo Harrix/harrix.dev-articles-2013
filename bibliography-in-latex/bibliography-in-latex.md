@@ -39,7 +39,7 @@ lang: ru
 \end{document}
 ```
 
-Теперь добавьте в папку с этим документом файл `utf8gost705u.bst` из архива: [utf8gost705u.zip](http://blog.harrix.org/wp-content/uploads/2013/04/utf8gost705u.zip).
+Теперь добавьте в папку с этим документом файл `utf8gost705u.bst` из архива: [utf8gost705u.zip](files/utf8gost705u.zip).
 
 Этот файл будет настраивать список литературы по ГОСТ.
 

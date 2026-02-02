@@ -197,7 +197,7 @@ _Рисунок 17 — Спойлеры_
 Простая кнопка:
 
 ```html
-[button url="http://blog.harrix.org" style="flat"]Кнопка[/button]
+[button url="https://harrix.dev" style="flat"]Кнопка[/button]
 ```
 
 ![Простая кнопка](img/button.png)
@@ -207,7 +207,7 @@ _Рисунок 18 — Простая кнопка_
 Кнопка может быть нескольких цветов (`color = black, blue, green, grey, orange, pink, red, white`):
 
 ```html
-[button url="http://blog.harrix.org" color="black" style="flat"]Кнопка[/button]
+[button url="https://harrix.dev" color="black" style="flat"]Кнопка[/button]
 ```
 
 ![Кнопка черная](img/button-black.png)
@@ -215,7 +215,7 @@ _Рисунок 18 — Простая кнопка_
 _Рисунок 19 — Кнопка черная_
 
 ```html
-[button url="http://blog.harrix.org" color="blue" style="flat"]Кнопка[/button]
+[button url="https://harrix.dev" color="blue" style="flat"]Кнопка[/button]
 ```
 
 ![Кнопка синяя](img/button-blue.png)
@@ -223,7 +223,7 @@ _Рисунок 19 — Кнопка черная_
 _Рисунок 20 — Кнопка синяя_
 
 ```html
-[button url="http://blog.harrix.org" color="green" style="flat"]Кнопка[/button]
+[button url="https://harrix.dev" color="green" style="flat"]Кнопка[/button]
 ```
 
 ![Кнопка зеленая](img/button-green.png)
@@ -231,7 +231,7 @@ _Рисунок 20 — Кнопка синяя_
 _Рисунок 21 — Кнопка зеленая_
 
 ```html
-[button url="http://blog.harrix.org" color="grey" style="flat"]Кнопка[/button]
+[button url="https://harrix.dev" color="grey" style="flat"]Кнопка[/button]
 ```
 
 ![Кнопка серая](img/button-grey.png)
@@ -239,7 +239,7 @@ _Рисунок 21 — Кнопка зеленая_
 _Рисунок 22 — Кнопка серая_
 
 ```html
-[button url="http://blog.harrix.org" color="orange" style="flat"]Кнопка[/button]
+[button url="https://harrix.dev" color="orange" style="flat"]Кнопка[/button]
 ```
 
 ![Кнопка оранжевая](img/button-orange.png)
@@ -247,7 +247,7 @@ _Рисунок 22 — Кнопка серая_
 _Рисунок 23 — Кнопка оранжевая_
 
 ```html
-[button url="http://blog.harrix.org" color="red" style="flat"]Кнопка[/button]
+[button url="https://harrix.dev" color="red" style="flat"]Кнопка[/button]
 ```
 
 ![Кнопка красная](img/button-red.png)
@@ -255,7 +255,7 @@ _Рисунок 23 — Кнопка оранжевая_
 _Рисунок 24 — Кнопка красная_
 
 ```html
-[button url="http://blog.harrix.org" color="white" style="flat"]Кнопка[/button]
+[button url="https://harrix.dev" color="white" style="flat"]Кнопка[/button]
 ```
 
 ![Кнопка белая](img/button-white.png)
@@ -265,7 +265,7 @@ _Рисунок 25 — Кнопка белая_
 Кнопки могут быть трех размеров (`size = small, medium, large`):
 
 ```html
-[button url="http://blog.harrix.org" size="small" style="flat"]Кнопка[/button]
+[button url="https://harrix.dev" size="small" style="flat"]Кнопка[/button]
 ```
 
 ![Кнопка маленькая](img/button-small.png)
@@ -273,7 +273,7 @@ _Рисунок 25 — Кнопка белая_
 _Рисунок 26 — Кнопка маленькая_
 
 ```html
-[button url="http://blog.harrix.org" size="medium" style="flat"]Кнопка[/button]
+[button url="https://harrix.dev" size="medium" style="flat"]Кнопка[/button]
 ```
 
 ![Кнопка средняя](img/button-medium.png)
@@ -281,7 +281,7 @@ _Рисунок 26 — Кнопка маленькая_
 _Рисунок 27 — Кнопка средняя_
 
 ```html
-[button url="http://blog.harrix.org" size="large" style="flat"]Кнопка[/button]
+[button url="https://harrix.dev" size="large" style="flat"]Кнопка[/button]
 ```
 
 ![Кнопка большая](img/button-large.png)
@@ -291,7 +291,7 @@ _Рисунок 28 — Кнопка большая_
 Кнопки могут быть трех стилей (`style = classic, flat, clear`):
 
 ```html
-[button url="http://blog.harrix.org" style="classic"]Кнопка[/button]
+[button url="https://harrix.dev" style="classic"]Кнопка[/button]
 ```
 
 ![Кнопка классическая](img/button-classic.png)
@@ -299,7 +299,7 @@ _Рисунок 28 — Кнопка большая_
 _Рисунок 29 — Кнопка классическая_
 
 ```html
-[button url="http://blog.harrix.org" style="flat"]Кнопка[/button]
+[button url="https://harrix.dev" style="flat"]Кнопка[/button]
 ```
 
 ![Кнопка плоская](img/button-flat.png)
@@ -307,7 +307,7 @@ _Рисунок 29 — Кнопка классическая_
 _Рисунок 30 — Кнопка плоская_
 
 ```html
-[button url="http://blog.harrix.org" style="clear"]Кнопка[/button]
+[button url="https://harrix.dev" style="clear"]Кнопка[/button]
 ```
 
 ![Кнопка контурная](img/button-clear.png)
@@ -319,19 +319,19 @@ _Рисунок 31 — Кнопка контурная_
 В той же:
 
 ```html
-[button url="http://blog.harrix.org" target="self" style="flat"]Кнопка[/button]
+[button url="https://harrix.dev" target="self" style="flat"]Кнопка[/button]
 ```
 
 В другой вкладке:
 
 ```html
-[button url="http://blog.harrix.org" target="blank" style="flat"]Кнопка[/button]
+[button url="https://harrix.dev" target="blank" style="flat"]Кнопка[/button]
 ```
 
 Все параметры могут сочетаться:
 
 ```html
-[button url="http://blog.harrix.org" color="orange" size="large"]Кнопка[/button]
+[button url="https://harrix.dev" color="orange" size="large"]Кнопка[/button]
 ```
 
 ![Кнопка классическая, оранжевая и большая](img/button-orange-classic-large.png)
@@ -339,8 +339,7 @@ _Рисунок 31 — Кнопка контурная_
 _Рисунок 32 — Кнопка классическая, оранжевая и большая_
 
 ```html
-[button url="http://blog.harrix.org" color="black" size="small"
-target="blank"]Кнопка[/button]
+[button url="https://harrix.dev" color="black" size="small" target="blank"]Кнопка[/button]
 ```
 
 _Рис. Кнопка классическая, черная и маленькая_
@@ -352,9 +351,8 @@ _Рисунок 33 — Кнопка классическая, черная и м
 ## Вкладки
 
 ```html
-[tabs] [tab title="Вкладка 1"] Первый блок информации [/tab] [tab title="Вкладка
-2"] Второй блок информации [/tab] [tab title="Вкладка 3"] Третий блок информации
-[/tab] [/tabs]
+[tabs] [tab title="Вкладка 1"] Первый блок информации [/tab] [tab title="Вкладка 2"] Второй блок информации [/tab] [tab
+title="Вкладка 3"] Третий блок информации [/tab] [/tabs]
 ```
 
 ![Вкладки](img/tabs.png)

@@ -21,7 +21,7 @@ lang: ru
 
 ![Featured image](featured-image.svg)
 
-В предыдущей [статье](http://blog.harrix.org/?p=43) по Sublime Text 2 мы рассмотрели настройки после установки программы.
+В предыдущей [статье](https://github.com/Harrix/harrix.dev-articles-2013/blob/main/initial-setup-sublime-text-2/initial-setup-sublime-text-2.md) | [↗️](https://harrix.dev/ru/articles/2013/initial-setup-sublime-text-2/) по Sublime Text 2 мы рассмотрели настройки после установки программы.
 
 <details>
 <summary>📖 Содержание ⬇️</summary>
