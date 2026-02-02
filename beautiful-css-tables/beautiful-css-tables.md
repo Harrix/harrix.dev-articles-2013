@@ -918,9 +918,9 @@ _Рисунок 5 — Простая таблица_
   </tr>
 
   <tr>
-    <td><a href="blog.harrix.org">Гиперссылка</a></td>
+    <td><a href="http://harrix.dev">Гиперссылка</a></td>
     <td>80%</td>
-    <td><a href="blog.harrix.org">Да</a></td>
+    <td><a href="http://harrix.dev">Да</a></td>
   </tr>
 </table>
 ```
