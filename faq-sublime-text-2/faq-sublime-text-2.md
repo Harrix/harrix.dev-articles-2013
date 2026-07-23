@@ -150,11 +150,12 @@ _Рисунок 2 — Множественное выделение_
 Можно установить двумя способами:
 
 - Распаковать архив с плагином в папку `Packages` с плагинами, что находится `%appdata%/Sublime Text 2/Packages`.
+
 - Через `Package Control`:
 
-![Package Control](img/package-control.png)
+  ![Package Control](img/package-control.png)
 
-_Рисунок 3 — Package Control_
+  _Рисунок 3 — Package Control_
 
 Набираем `Install Package` и производим установку плагина.
 
