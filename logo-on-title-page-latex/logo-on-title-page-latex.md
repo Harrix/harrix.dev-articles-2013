@@ -29,7 +29,7 @@ lang: ru
 В преамбуле пропишите свойства картинки вставляемой, например, так:
 
 ```tex
-\titlepic{\includegraphics[width=8cm]{harrix.png}}
+\titlepic{\includegraphics[width = 8cm]{harrix.png}}
 ```
 
 Вместо `harrix.png` вставьте свой рисунок.
@@ -57,18 +57,16 @@ lang: ru
 \usepackage{graphicx}
 \usepackage{titlepic}
 
-\titlepic{\includegraphics[width=8cm]{harrix.png}}
+\titlepic{\includegraphics[width = 8cm]{harrix.png}}
 
 \title{HarrixMathLibrary v.3.0.0}
-\author{А.,Б. Сергиенко}
+\author{А., Б. Сергиенко}
 \date{1 апреля 2013г.}
 
 \begin{document}
+  \maketitle
 
-\maketitle
-
-Текст контента.
-
+  Текст контента.
 \end{document}
 ```
 

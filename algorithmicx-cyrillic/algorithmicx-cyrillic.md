@@ -65,7 +65,7 @@ lang: ru
 
 Скопируйте файлы в папку с вашим LaTeX документом (но в том же MiKTex пакет и так есть, так что копировать ничего не надо).
 
-Документация на сайте: [algorithmicx.pdf](http://mirror.macomnet.net/pub/CTAN/macros/latex/contrib/algorithmicx/algorithmicx.pdf).
+Документация на сайте: [`algorithmicx.pdf`](http://mirror.macomnet.net/pub/CTAN/macros/latex/contrib/algorithmicx/algorithmicx.pdf).
 
 Ну, а теперь подключаем пакет в LaTeX документе:
 
@@ -80,11 +80,11 @@ lang: ru
 
 ```tex
 \begin{algorithmic}
-  \If {$i\geq maxval$}
+  \If {$i \geq maxval$}
   \State $i\gets 0$
   \Else
-  \If {$i+k\leq maxval$}
-  \State $i\gets i+k$
+  \If {$i + k \leq maxval$}
+  \State $i\gets i + k$
   \EndIf
   \EndIf
 \end{algorithmic}
@@ -100,18 +100,16 @@ _Рисунок 1 — Псевдокод в PDF_
 
 ```tex
 \begin{algorithm}
-\caption{Какой-то алгоритм}\label{alg:Example}
-\begin{algorithmic}[1]
-
-\If {$i\geq maxval$}
-  \State $i\gets 0$
-\Else
-  \If {$i+k\leq maxval$}
-    \State $i\gets i+k$
-  \EndIf
-\EndIf
-
-\end{algorithmic}
+  \caption{Какой-то алгоритм}\label{alg:Example}
+  \begin{algorithmic}[1]
+    \If {$i \geq maxval$}
+      \State $i\gets 0$
+    \Else
+      \If {$i + k \leq maxval$}
+        \State $i\gets i + k$
+      \EndIf
+    \EndIf
+  \end{algorithmic}
 \end{algorithm}
 ```
 
@@ -135,22 +133,18 @@ _Рисунок 2 — Псевдокод с оберткой в PDF_
 \usepackage{algpseudocode}
 
 \begin{document}
-
-\begin{algorithm}
-\caption{Какой-то алгоритм}\label{alg:Example}
-\begin{algorithmic}[1]
-
-\If {$i\geq maxval$}
-  \State $i\gets 0$
-\Else
-  \If {$i+k\leq maxval$}
-    \State $i\gets i+k$
-  \EndIf
-\EndIf
-
-\end{algorithmic}
-\end{algorithm}
-
+  \begin{algorithm}
+    \caption{Какой-то алгоритм}\label{alg:Example}
+    \begin{algorithmic}[1]
+      \If {$i \geq maxval$}
+        \State $i\gets 0$
+      \Else
+        \If {$i + k \leq maxval$}
+          \State $i\gets i + k$
+        \EndIf
+      \EndIf
+    \end{algorithmic}
+  \end{algorithm}
 \end{document}
 ```
 
@@ -159,8 +153,8 @@ _Рисунок 2 — Псевдокод с оберткой в PDF_
 ### Цикл
 
 ```tex
-\For{<text>}
-<body>
+\For{ < text > }
+< body >
 \EndFor
 ```
 
@@ -169,7 +163,7 @@ _Рисунок 2 — Псевдокод с оберткой в PDF_
 _Рисунок 3 — Цикл_
 
 ```tex
-\For{<text>}
+\For{ < text > }
 \State Линия 1
 \State Линия 1
 \EndFor
@@ -182,8 +176,8 @@ _Рисунок 4 — Цикл с несколькими командами_
 ### Цикл для всех элементов
 
 ```tex
-\ForAll{<text>}
-<body>
+\ForAll{ < text > }
+< body >
 \EndFor
 ```
 
@@ -194,8 +188,8 @@ _Рисунок 5 — Цикл для всех элементов_
 ### Цикл с предусловием
 
 ```tex
-\While{<text>}
-<body>
+\While{ < text > }
+< body >
 \EndWhile
 ```
 
@@ -205,8 +199,8 @@ _Рисунок 6 — Цикл с предусловием_
 
 ```tex
 \While{$ile n$}
-\State $sum\gets sum+i$
-\State $i\gets i+1$
+\State $sum\gets sum + i$
+\State $i\gets i + 1$
 \EndWhile
 ```
 
@@ -218,8 +212,8 @@ _Рисунок 7 — Цикл с предусловием с нескольки
 
 ```tex
 \Repeat
-<body>
-\Until{<text>}
+< body >
+\Until{ < text > }
 ```
 
 ![Цикл с постусловием](img/repeat_01.png)
@@ -228,9 +222,9 @@ _Рисунок 8 — Цикл с постусловием_
 
 ```tex
 \Repeat
-\State $sum\gets sum+i$
-\State $i\gets i+1$
-\Until{$i>n$}
+\State $sum\gets sum + i$
+\State $i\gets i + 1$
+\Until{$i > n$}
 ```
 
 ![Цикл с постусловием с несколькими командами](img/repeat_02.png)
@@ -260,8 +254,8 @@ _Рисунок 10 — Условие_
 ### Процедура
 
 ```tex
-\Procedure{<name>}{<params>}
-<body>
+\Procedure{ < name > }{ < params > }
+< body >
 \EndProcedure
 ```
 
@@ -272,14 +266,14 @@ _Рисунок 11 — Процедура_
 Если хотите потом выделить в псевдокоде вызов процедуры или функции, то используйте конструкцию:
 
 ```tex
-\State \Call{<name>}{<params>}
+\State \Call{ < name > }{ < params > }
 ```
 
 Например:
 
 ```tex
 \Procedure{MakeArray}{Число элементов}
-\State $X=new int[5]$
+\State $X = new int[5]$
 \EndProcedure
 
 \Statex
@@ -293,8 +287,8 @@ _Рисунок 12 — Вызов процедуры_
 ### Функция
 
 ```tex
-\Function{<name>}{<params>}
-<body>
+\Function{ < name > }{ < params > }
+< body >
 \EndFunction
 ```
 
@@ -306,7 +300,7 @@ _Рисунок 13 — Функция_
 
 ```tex
 \Loop
-<body>
+< body >
 \EndLoop
 ```
 
@@ -319,8 +313,8 @@ _Рисунок 14 — Зацикливание_
 ```tex
 \Require $x\ge5$
 \Statex
-\While{$x>-5$}
-\State $x\gets x-1$
+\While{$x > -5$}
+\State $x\gets x - 1$
 \EndWhile
 ```
 
@@ -331,10 +325,10 @@ _Рисунок 15 — Обязательные условия_
 ### Обеспечивающие условия
 
 ```tex
-\Ensure $x\le-5$
+\Ensure $x\le - 5$
 \Statex
-\While{$x>-5$}
-\State $x\gets x-1$
+\While{$x > -5$}
+\State $x\gets x - 1$
 \EndWhile
 ```
 
@@ -347,17 +341,17 @@ _Рисунок 16 — Обеспечивающие условия_
 Используйте конструкцию:
 
 ```tex
-\State \Return <text>
+\State \Return < text >
 ```
 
 Например:
 
 ```tex
-\If {$i\geq maxval$}
+\If {$i \geq maxval$}
   \State $i\gets 0$
 \Else
-  \If {$i+k\leq maxval$}
-    \State $i\gets i+k$
+  \If {$i + k \leq maxval$}
+    \State $i\gets i + k$
   \EndIf
   \State \Return $X$
 \EndIf
@@ -411,19 +405,17 @@ _Рисунок 20 — Нумерация строк через одну_
 
 ```tex
 \begin{algorithm}
-\caption{Какой-то алгоритм}\label{alg:Example}
-\begin{algorithmic}[1]
-
-\If {$i\geq maxval$}
-  \State $i\gets 0$
-\Statex
-\Else
-  \If {$i+k\leq maxval$}
-    \State $i\gets i+k$
-  \EndIf
-\EndIf
-
-\end{algorithmic}
+  \caption{Какой-то алгоритм}\label{alg:Example}
+  \begin{algorithmic}[1]
+    \If {$i \geq maxval$}
+      \State $i\gets 0$
+    \Statex
+    \Else
+      \If {$i + k \leq maxval$}
+        \State $i\gets i + k$
+      \EndIf
+    \EndIf
+  \end{algorithmic}
 \end{algorithm}
 ```
 
@@ -483,24 +475,20 @@ _Рисунок 23 — Без окончания end в командах_
 \usepackage{algpseudocode}
 
 \begin{document}
+  \begin{algorithm}
+    \caption{Какой-то алгоритм}\label{alg:Example}
+    \begin{algorithmic}[1]
+      \If {$i \geq maxval$}
+        \State $i\gets 0$
+      \Else
+        \If {$i + k \leq maxval$}
+          \State $i\gets i + k$
+        \EndIf
+      \EndIf
+    \end{algorithmic}
+  \end{algorithm}
 
-\begin{algorithm}
-\caption{Какой-то алгоритм}\label{alg:Example}
-\begin{algorithmic}[1]
-
-\If {$i\geq maxval$}
-  \State $i\gets 0$
-\Else
-  \If {$i+k\leq maxval$}
-    \State $i\gets i+k$
-  \EndIf
-\EndIf
-
-\end{algorithmic}
-\end{algorithm}
-
-\listofalgorithms
-
+  \listofalgorithms
 \end{document}
 ```
 
@@ -532,23 +520,19 @@ _Рисунок 24 — Список алгоритмов_
 \usepackage{algpseudocode}
 
 \begin{document}
-
-\begin{algorithm}
-\caption{Какой-то алгоритм}\label{alg:Example}
-\begin{algorithmic}[1]
-
-\If {$i\geq maxval$}
-  \State $i\gets 0$
-  \Comment{Тут что-то интересное}
-\Else
-  \If {$i+k\leq maxval$}
-    \State $i\gets i+k$
-  \EndIf
-\EndIf
-
-\end{algorithmic}
-\end{algorithm}
-
+  \begin{algorithm}
+    \caption{Какой-то алгоритм}\label{alg:Example}
+    \begin{algorithmic}[1]
+      \If {$i \geq maxval$}
+        \State $i\gets 0$
+        \Comment{Тут что-то интересное}
+      \Else
+        \If {$i + k \leq maxval$}
+          \State $i\gets i + k$
+        \EndIf
+      \EndIf
+    \end{algorithmic}
+  \end{algorithm}
 \end{document}
 ```
 
@@ -581,20 +565,18 @@ _Рисунок 25 — Комментарии_
 \usepackage{algpseudocode}
 
 \begin{document}
+  \algblock[ALGORITHMBLOCK]{BeginAlgorithm}{EndAlgorithm}
+  \algblock[BLOCK]{BeginBlock}{EndBlock}
 
-\algblock[ALGORITHMBLOCK]{BeginAlgorithm}{EndAlgorithm}
-\algblock[BLOCK]{BeginBlock}{EndBlock}
-
-\begin{algorithmic}[1]
-\BeginAlgorithm
-\BeginBlock Пример
-\BeginBlock Еще один блок
-\State $X=2$
-\EndBlock
-\EndBlock
-\EndAlgorithm
-\end{algorithmic}
-
+  \begin{algorithmic}[1]
+    \BeginAlgorithm
+    \BeginBlock Пример
+    \BeginBlock Еще один блок
+    \State $X = 2$
+    \EndBlock
+    \EndBlock
+    \EndAlgorithm
+  \end{algorithmic}
 \end{document}
 ```
 
@@ -615,19 +597,15 @@ _Рисунок 26 — Собственные команды_
 \usepackage{algpseudocode}
 
 \begin{document}
-
-\begin{algorithmic}
-
-\If {$i\geq maxval$}
-  \State bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-\Else
-  \If {$i+k\leq maxval$}
-    \State bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-  \EndIf
-\EndIf
-
-\end{algorithmic}
-
+  \begin{algorithmic}
+    \If {$i \geq maxval$}
+      \State bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+    \Else
+      \If {$i + k \leq maxval$}
+        \State bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+      \EndIf
+    \EndIf
+  \end{algorithmic}
 \end{document}
 ```
 
@@ -638,7 +616,7 @@ _Рисунок 27 — Некрасивый перенос длинных стр
 Как видите, отступы при переносе строки не такие, какие нам нужны. Чтобы это решить, заключайте текст соответствующей строки в конструкцию:
 
 ```tex
-\parbox[t]{\dimexpr\linewidth-\algorithmicindent}{<text>strut}
+\parbox[t]{\dimexpr\linewidth - \algorithmicindent}{ < text > strut}
 ```
 
 На примере:
@@ -650,19 +628,15 @@ _Рисунок 27 — Некрасивый перенос длинных стр
 \usepackage{algpseudocode}
 
 \begin{document}
-
-\begin{algorithmic}
-
-\If {$i\geq maxval$}
-  \State \parbox[t]{\dimexpr\linewidth-\algorithmicindent}{bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla}
-\Else
-  \If {$i+k\leq maxval$}
-    \State \parbox[t]{\dimexpr\linewidth-\algorithmicindent}{bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla}
-  \EndIf
-\EndIf
-
-\end{algorithmic}
-
+  \begin{algorithmic}
+    \If {$i \geq maxval$}
+      \State \parbox[t]{\dimexpr\linewidth - \algorithmicindent}{bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla}
+    \Else
+      \If {$i + k \leq maxval$}
+        \State \parbox[t]{\dimexpr\linewidth - \algorithmicindent}{bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla}
+      \EndIf
+    \EndIf
+  \end{algorithmic}
 \end{document}
 ```
 
@@ -684,22 +658,20 @@ _Рисунок 29 — Сдвинутый блок съехал_
 \usepackage{algorithm}
 
 \begin{document}
+  \begin{algorithm}
+    \caption{Examples}\label{alg:Examples}
+    \begin{algorithmic}
+      \While{$Y < 5$}
+      \While{$Y < 5$}
 
-\begin{algorithm}
-  \caption{Examples}\label{alg:Examples}
-  \begin{algorithmic}
-  \While{$Y<5$}
-  \While{$Y<5$}
+      \If{$quality\ge 9$}
+      \State \parbox[t]{\dimexpr\linewidth - \algorithmicindent - \algorithmicindent - \algorithmicindent}{bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla strut}
+      \EndIf
 
-  \If{$quality\ge 9$}
-  \State \parbox[t]{\dimexpr\linewidth-\algorithmicindent-\algorithmicindent-\algorithmicindent}{bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla strut}
-  \EndIf
-
-  \EndWhile
-  \EndWhile
-  \end{algorithmic}
-\end{algorithm}
-
+      \EndWhile
+      \EndWhile
+    \end{algorithmic}
+  \end{algorithm}
 \end{document}
 ```
 
@@ -729,24 +701,24 @@ _Рисунок 30 — Перенос длинных строк во вложе�
 % This is the vertical rule that is inserted
 \newcommand*{\algrule}[1][\algorithmicindent]{
   \makebox[#1][l]{
-    \hspace*{.2em}% <------------- This is where the rule starts from
+    \hspace*{.2em}% < ------------- This is where the rule starts from
     \vrule height .75\baselineskip depth .25\baselineskip
   }
 }
 
 \newcount\ALG@printindent@tempcnta
 \def\ALG@printindent{
-  \ifnum \theALG@nested>0% is there anything to print
+  \ifnum \theALG@nested > 0% is there anything to print
   \ifx\ALG@text\ALG@x@notext% is this an end group without any text?
   % do nothing
   \else
   \unskip
   % draw a rule for each indent level
-  \ALG@printindent@tempcnta=1
+  \ALG@printindent@tempcnta = 1
   \loop
   \algrule[\csname ALG@ind@\the\ALG@printindent@tempcnta\endcsname]
   \advance \ALG@printindent@tempcnta 1
-  \ifnum \ALG@printindent@tempcnta<\numexpr\theALG@nested+1\relax
+  \ifnum \ALG@printindent@tempcnta < \numexpr\theALG@nested + 1\relax
   \repeat
   \fi
   \fi
@@ -781,24 +753,24 @@ _Рисунок 30 — Перенос длинных строк во вложе�
 % This is the vertical rule that is inserted
 \newcommand*{\algrule}[1][\algorithmicindent]{
   \makebox[#1][l]{
-    \hspace*{.2em}% <------------- This is where the rule starts from
+    \hspace*{.2em}% < ------------- This is where the rule starts from
     \vrule height .75\baselineskip depth .25\baselineskip
   }
 }
 
 \newcount\ALG@printindent@tempcnta
 \def\ALG@printindent{
-  \ifnum \theALG@nested>0% is there anything to print
+  \ifnum \theALG@nested > 0% is there anything to print
   \ifx\ALG@text\ALG@x@notext% is this an end group without any text?
   % do nothing
   \else
   \unskip
   % draw a rule for each indent level
-  \ALG@printindent@tempcnta=1
+  \ALG@printindent@tempcnta = 1
   \loop
   \algrule[\csname ALG@ind@\the\ALG@printindent@tempcnta\endcsname]
   \advance \ALG@printindent@tempcnta 1
-  \ifnum \ALG@printindent@tempcnta<\numexpr\theALG@nested+1\relax
+  \ifnum \ALG@printindent@tempcnta < \numexpr\theALG@nested + 1\relax
   \repeat
   \fi
   \fi
@@ -810,16 +782,15 @@ _Рисунок 30 — Перенос длинных строк во вложе�
 \makeatother
 
 \begin{document}
-
   \renewcommand{\listalgorithmname}{Список алгоритмов}
   \floatname{algorithm}{Алгоритм}
 
   \begin{algorithm}
     \caption{Euclid’s algorithm}\label{euclid}
     \begin{algorithmic}[1]
-      \Procedure{Euclid}{$a,b$} \Comment{The g.c.d. of a and b}
+      \Procedure{Euclid}{$a, b$} \Comment{The g.c.d. of a and b}
       $r\gets a\bmod b$
-      \While{$r\not=0$} \Comment{We have the answer if r is 0}
+      \While{$r\not = 0$} \Comment{We have the answer if r is 0}
       \State $a\gets b$
       \State $a\gets b$
       \BeginBlock
@@ -842,12 +813,11 @@ _Рисунок 30 — Перенос длинных строк во вложе�
     \BeginAlgorithm
     \BeginBlock Пример
     \BeginBlock Еще один блок Еще один блок Еще один блок Еще один блок Еще один блок Еще один блок Еще один блок Еще один блок Еще один блок Еще один блок Еще один блок Еще один блок Еще один блок Еще один блок Еще один блок Еще один блок Еще один блок Еще один блок
-    \State $X=2$
+    \State $X = 2$
     \EndBlock
     \EndBlock
     \EndAlgorithm
   \end{algorithmic}
-
 \end{document}
 ```
 
@@ -869,27 +839,27 @@ _Рисунок 32 — Длинный алгоритм не поместился
 \begin{algorithm}
   \caption{Пример алгоритма}\label{alg:Examples}
   \begin{algorithmic}[1]
-  \State $X=45$
-  \For{\textbf{от} $i=0$ \textbf{до} 5}
-  \State $X=X-2$
-  \State \Call {Find}{$X$}
-  \While{$Y_2<5$}
+    \State $X = 45$
+    \For{\textbf{от} $i = 0$ \textbf{до} 5}
+    \State $X = X - 2$
+    \State \Call {Find}{$X$}
+    \While{$Y_2 < 5$}
 
-  \If{$quality\ge 9$}
-  \State $a\gets perfect$
-  \ElsIf{$quality\ge 7$}
-  \State $a\gets good$
-  \ElsIf{$quality\ge 5$}
-  \State $a\gets medium$
-  \ElsIf{$quality\ge 3$}
-  \State $a\gets bad$
-  \Else
-  \State $a\gets unusable$
-  \EndIf
+    \If{$quality\ge 9$}
+    \State $a\gets perfect$
+    \ElsIf{$quality\ge 7$}
+    \State $a\gets good$
+    \ElsIf{$quality\ge 5$}
+    \State $a\gets medium$
+    \ElsIf{$quality\ge 3$}
+    \State $a\gets bad$
+    \Else
+    \State $a\gets unusable$
+    \EndIf
 
-  \EndWhile
-  \State \Return $X$
-  \EndFor
+    \EndWhile
+    \State \Return $X$
+    \EndFor
   \end{algorithmic}
 \end{algorithm}
 ```
@@ -897,7 +867,7 @@ _Рисунок 32 — Длинный алгоритм не поместился
 Разобьем его на две части, то есть на два полноценных алгоритма. При этом в месте разрыва в первом алгоритме пишем:
 
 ```tex
-  \algstore{bkbreak}
+\algstore{bkbreak}
 ```
 
 А во втором в начале пишем:
@@ -920,48 +890,44 @@ _Рисунок 32 — Длинный алгоритм не поместился
 \usepackage{algpseudocode}
 
 \begin{document}
+  \begin{algorithm}
+    \caption{Пример алгоритма}\label{alg:Examples}
+    \begin{algorithmic}[1]
+      \State $X = 45$
+      \For{\textbf{от} $i = 0$ \textbf{до} 5}
+      \State $X = X - 2$
+      \State \Call {Find}{$X$}
+      \While{$Y_2 < 5$}
 
-\begin{algorithm}
-  \caption{Пример алгоритма}\label{alg:Examples}
-  \begin{algorithmic}[1]
-  \State $X=45$
-  \For{\textbf{от} $i=0$ \textbf{до} 5}
-  \State $X=X-2$
-  \State \Call {Find}{$X$}
-  \While{$Y_2<5$}
+      \If{$quality\ge 9$}
+      \State $a\gets perfect$
 
-  \If{$quality\ge 9$}
-  \State $a\gets perfect$
+      \algstore{bkbreak}
+    \end{algorithmic}
+  \end{algorithm}
 
-  \algstore{bkbreak}
+  Пример текста между двумя алгоритмами.
 
-  \end{algorithmic}
-\end{algorithm}
+  \begin{algorithm}
+      \caption{Пример алгоритма}\label{alg:Examples}
+    \begin{algorithmic}[1]
+      \algrestore{bkbreak}
 
-Пример текста между двумя алгоритмами.
+        \ElsIf{$quality\ge 7$}
+        \State $a\gets good$
+        \ElsIf{$quality\ge 5$}
+        \State $a\gets medium$
+        \ElsIf{$quality\ge 3$}
+        \State $a\gets bad$
+        \Else
+        \State $a\gets unusable$
+        \EndIf
 
-\begin{algorithm}
-  \caption{Пример алгоритма}\label{alg:Examples}
-  \begin{algorithmic}[1]
-
-\algrestore{bkbreak}
-
-  \ElsIf{$quality\ge 7$}
-  \State $a\gets good$
-  \ElsIf{$quality\ge 5$}
-  \State $a\gets medium$
-  \ElsIf{$quality\ge 3$}
-  \State $a\gets bad$
-  \Else
-  \State $a\gets unusable$
-  \EndIf
-
-  \EndWhile
-  \State \Return $X$
-  \EndFor
-  \end{algorithmic}
-\end{algorithm}
-
+        \EndWhile
+        \State \Return $X$
+        \EndFor
+    \end{algorithmic}
+  \end{algorithm}
 \end{document}
 ```
 
@@ -976,18 +942,18 @@ _Рисунок 33 — Алгоритм разделен на две части_
 Используем следующие конструкции. Если нужно выравнивание по правому краю:
 
 ```tex
-\State <text> \begin{flalign*}
-<формула>\
-<формула>
+\State < text > \begin{flalign*}
+  < формула > \
+  < формула >
 \end{flalign*}
 ```
 
 Если по левому краю, то:
 
 ```tex
-\State <text> \begin{flalign*}
-&<формула>\
-&<формула>
+\State < text > \begin{flalign*}
+  & < формула > \
+  & < формула >
 \end{flalign*}
 ```
 
@@ -1005,27 +971,40 @@ _Рисунок 33 — Алгоритм разделен на две части_
 \usepackage{algpseudocode}
 
 %%% Математические пакеты %%%
-\usepackage{amsthm,amsfonts,amsmath,amssymb,amscd} % Математические дополнения от AMS
+\usepackage{amsthm, amsfonts, amsmath, amssymb, amscd} % Математические дополнения от AMS
 
 \begin{document}
-
   \begin{algorithm}
     \caption{Пример алгоритма}\label{alg:Examples}
 
     \begin{algorithmic}[1]
-      \State $X=45$
+      \State $X = 45$
       \State Вычисляем \begin{flalign*}
-      &\left( \begin{array}{c} X_{B} \\ f_B\left( \bar{x}_{B}\right)  \\ {g_i}_B\left( \bar{x}_B\right) \\ {h_j}_B\left( \bar{x}_B\right) \\ ParametersOfBinaryGA\end{array}\right)=\\
-      &=ConvertingIntoBinaryGA\left( \begin{array}{c} X \\ f\left( \bar{x}\right) \\ g_i\left( \bar{x}\right) \\ h_j\left( \bar{x}\right) \\ ParametersOfBinaryGA \\ ParametersOfConvertingIntoBinaryGA \end{array}\right);
+        & \left(
+          \begin{array}{c}
+            X_{B} \\
+            f_B\left( \bar{x}_{B}\right) \\
+            {g_i}_B\left( \bar{x}_B\right) \\
+            {h_j}_B\left( \bar{x}_B\right) \\
+            ParametersOfBinaryGA
+          \end{array}
+        \right) = \\
+        &= ConvertingIntoBinaryGA\left(
+          \begin{array}{c}
+            X \\
+            f\left( \bar{x}\right) \\
+            g_i\left( \bar{x}\right) \\
+            h_j\left( \bar{x}\right) \\
+            ParametersOfBinaryGA \\
+            ParametersOfConvertingIntoBinaryGA
+          \end{array}
+        \right);
       \end{flalign*}
-      \State $X=45$
-      \State $X=45$
-      \State $X=45$
-
-
+      \State $X = 45$
+      \State $X = 45$
+      \State $X = 45$
     \end{algorithmic}
   \end{algorithm}
-
 \end{document}
 ```
 
@@ -1047,7 +1026,7 @@ _Рисунок 35 — Проблема с нумерацией алгоритм
 
 ```tex
 \usepackage{caption}% http://ctan.org/pkg/caption
-\captionsetup[ruled]{labelsep=period}
+\captionsetup[ruled]{labelsep = period}
 \renewcommand{\thealgorithm}{\arabic{algorithm}}%
 ```
 
@@ -1065,31 +1044,29 @@ _Рисунок 35 — Проблема с нумерацией алгоритм
 \usepackage{algpseudocode}
 
 \usepackage{caption}% http://ctan.org/pkg/caption
-\captionsetup[ruled]{labelsep=period}
+\captionsetup[ruled]{labelsep = period}
 \renewcommand{\thealgorithm}{\arabic{algorithm}}%
 
 \begin{document}
-
   \begin{algorithm}
     \caption{Examples}\label{alg:Examples}
     \begin{algorithmic}
-      \State $X_2=45$
-      \State $X_2=45$
-      \State $X_2=45$
-      \State $X_2=45$
+      \State $X_2 = 45$
+      \State $X_2 = 45$
+      \State $X_2 = 45$
+      \State $X_2 = 45$
     \end{algorithmic}
   \end{algorithm}
 
   \begin{algorithm}
     \caption{Examples}\label{alg:Examples}
     \begin{algorithmic}
-      \State $X_2=45$
-      \State $X_2=45$
-      \State $X_2=45$
-      \State $X_2=45$
+      \State $X_2 = 45$
+      \State $X_2 = 45$
+      \State $X_2 = 45$
+      \State $X_2 = 45$
     \end{algorithmic}
   \end{algorithm}
-
 \end{document}
 ```
 
@@ -1103,45 +1080,43 @@ _Рисунок 36 — Нумерация алгоритмов_
 
 ```tex
 \usepackage{caption}% http://ctan.org/pkg/caption
-\captionsetup[ruled]{labelsep=period}
+\captionsetup[ruled]{labelsep = period}
 \makeatletter
 \@addtoreset{algorithm}{chapter}% algorithm counter resets every chapter
 \makeatother
-\renewcommand{\thealgorithm}{\thechapter.\arabic{algorithm}}% Algorithm # is <chapter>.<algorithm>
+\renewcommand{\thealgorithm}{\thechapter.\arabic{algorithm}}% Algorithm # is < chapter > . < algorithm >
 ```
 
 В полном примере:
 
 ```tex
-\documentclass[a4paper,12pt]{report}
+\documentclass[a4paper, 12pt]{report}
 
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 
 \usepackage{caption}% http://ctan.org/pkg/caption
-\captionsetup[ruled]{labelsep=period}
+\captionsetup[ruled]{labelsep = period}
 \makeatletter
 \@addtoreset{algorithm}{chapter}% algorithm counter resets every chapter
 \makeatother
-\renewcommand{\thealgorithm}{\thechapter.\arabic{algorithm}}% Algorithm # is <chapter>.<algorithm>
+\renewcommand{\thealgorithm}{\thechapter.\arabic{algorithm}}% Algorithm # is < chapter > . < algorithm >
 
 \begin{document}
-
   \chapter{A chapter}
 
   \begin{equation}
-  X_2=4
+    X_2 = 4
   \end{equation}
 
   \begin{algorithm}
     \caption{Examples}\label{alg:Examples}
     \begin{algorithmic}[1]
-      \State $X=45$
-      \State $X=45$
-      \State $X=45$
-      \State $X=45$
-      \State $X=45$
-
+      \State $X = 45$
+      \State $X = 45$
+      \State $X = 45$
+      \State $X = 45$
+      \State $X = 45$
     \end{algorithmic}
   \end{algorithm}
 
@@ -1150,33 +1125,30 @@ _Рисунок 36 — Нумерация алгоритмов_
   \begin{algorithm}
     \caption{Examples}\label{alg:Examples}
     \begin{algorithmic}[1]
-      \State $X=45$
-      \State $X=45$
-      \State $X=45$
-      \State $X=45$
-      \State $X=45$
-
+      \State $X = 45$
+      \State $X = 45$
+      \State $X = 45$
+      \State $X = 45$
+      \State $X = 45$
     \end{algorithmic}
   \end{algorithm}
 
   \chapter{A chapter second}
 
   \begin{equation}
-  X_2=4
+    X_2 = 4
   \end{equation}
 
   \begin{algorithm}
     \caption{Examples}\label{alg:Examples}
     \begin{algorithmic}[1]
-      \State $X=45$
-      \State $X=45$
-      \State $X=45$
-      \State $X=45$
-      \State $X=45$
-
+      \State $X = 45$
+      \State $X = 45$
+      \State $X = 45$
+      \State $X = 45$
+      \State $X = 45$
     \end{algorithmic}
   \end{algorithm}
-
 \end{document}
 ```
 
@@ -1207,27 +1179,23 @@ _Рисунок 37 — Нумерация алгоритмов в докумен
 \usepackage{algpseudocode}
 
 \begin{document}
+  \renewcommand{\listalgorithmname}{Список алгоритмов}
+  \floatname{algorithm}{Алгоритм}
 
-\renewcommand{\listalgorithmname}{Список алгоритмов}
-\floatname{algorithm}{Алгоритм}
+  \begin{algorithm}
+    \caption{Какой-то алгоритм}\label{alg:Example}
+    \begin{algorithmic}[1]
+      \If {$i \geq maxval$}
+        \State $i\gets 0$
+      \Else
+        \If {$i + k \leq maxval$}
+          \State $i\gets i + k$
+        \EndIf
+      \EndIf
+    \end{algorithmic}
+  \end{algorithm}
 
-\begin{algorithm}
-\caption{Какой-то алгоритм}\label{alg:Example}
-\begin{algorithmic}[1]
-
-\If {$i\geq maxval$}
-  \State $i\gets 0$
-\Else
-  \If {$i+k\leq maxval$}
-    \State $i\gets i+k$
-  \EndIf
-\EndIf
-
-\end{algorithmic}
-\end{algorithm}
-
-\listofalgorithms
-
+  \listofalgorithms
 \end{document}
 ```
 
@@ -1295,11 +1263,10 @@ _Рисунок 38 — Алгоритм имеет подпись на русс�
 
 % Нумерация блоков
 \usepackage{caption}% http://ctan.org/pkg/caption
-\captionsetup[ruled]{labelsep=period}
+\captionsetup[ruled]{labelsep = period}
 \renewcommand{\thealgorithm}{\arabic{algorithm}}
 
 \begin{document}
-
   % Перевод данных об алгоритмах
   \renewcommand{\listalgorithmname}{Список алгоритмов}
   \floatname{algorithm}{Алгоритм}
@@ -1337,19 +1304,17 @@ _Рисунок 38 — Алгоритм имеет подпись на русс�
   \begin{algorithm}
     \caption{Пример алгоритма}\label{alg:Examples}
     \begin{algorithmic}[1]
-
     \end{algorithmic}
   \end{algorithm}
 
   \listofalgorithms
-
 \end{document}
 ```
 
 «Болванка» с русскими названиями команд, без использования вертикальных линий, с точкой в нумерации алгоритмов, с блоками и функциями начала и конца алгоритма и с правильной нумерацией для глав для документа report:
 
 ```tex
-\documentclass[a4paper,12pt]{report}
+\documentclass[a4paper, 12pt]{report}
 
 \usepackage[T2A]{fontenc} % Поддержка русских букв
 \usepackage[utf8]{inputenc} % Кодировка utf8
@@ -1367,59 +1332,56 @@ _Рисунок 38 — Алгоритм имеет подпись на русс�
 
 % Нумерация блоков
 \usepackage{caption}% http://ctan.org/pkg/caption
-\captionsetup[ruled]{labelsep=period}
+\captionsetup[ruled]{labelsep = period}
 \makeatletter
 \@addtoreset{algorithm}{chapter}% algorithm counter resets every chapter
 \makeatother
-\renewcommand{\thealgorithm}{\thechapter.\arabic{algorithm}}% Algorithm # is <chapter>.<algorithm>
+\renewcommand{\thealgorithm}{\thechapter.\arabic{algorithm}}% Algorithm # is < chapter > . < algorithm >
 
 \begin{document}
+    % Перевод данных об алгоритмах
+    \renewcommand{\listalgorithmname}{Список алгоритмов}
+    \floatname{algorithm}{Алгоритм}
 
-  % Перевод данных об алгоритмах
-  \renewcommand{\listalgorithmname}{Список алгоритмов}
-  \floatname{algorithm}{Алгоритм}
+    % Перевод команд псевдокода
+    \algrenewcommand\algorithmicwhile{\textbf{До тех пока}}
+    \algrenewcommand\algorithmicdo{\textbf{выполнять}}
+    \algrenewcommand\algorithmicrepeat{\textbf{Повторять}}
+    \algrenewcommand\algorithmicuntil{\textbf{Пока выполняется}}
+    \algrenewcommand\algorithmicend{\textbf{Конец}}
+    \algrenewcommand\algorithmicif{\textbf{Если}}
+    \algrenewcommand\algorithmicelse{\textbf{иначе}}
+    \algrenewcommand\algorithmicthen{\textbf{тогда}}
+    \algrenewcommand\algorithmicfor{\textbf{Цикл}}
+    \algrenewcommand\algorithmicforall{\textbf{Выполнить для всех}}
+    \algrenewcommand\algorithmicfunction{\textbf{Функция}}
+    \algrenewcommand\algorithmicprocedure{\textbf{Процедура}}
+    \algrenewcommand\algorithmicloop{\textbf{Зациклить}}
+    \algrenewcommand\algorithmicrequire{\textbf{Условия:}}
+    \algrenewcommand\algorithmicensure{\textbf{Обеспечивающие условия:}}
+    \algrenewcommand\algorithmicreturn{\textbf{Возвратить}}
+    \algrenewtext{EndWhile}{\textbf{Конец цикла}}
+    \algrenewtext{EndLoop}{\textbf{Конец зацикливания}}
+    \algrenewtext{EndFor}{\textbf{Конец цикла}}
+    \algrenewtext{EndFunction}{\textbf{Конец функции}}
+    \algrenewtext{EndProcedure}{\textbf{Конец процедуры}}
+    \algrenewtext{EndIf}{\textbf{Конец условия}}
+    \algrenewtext{EndFor}{\textbf{Конец цикла}}
+    \algrenewtext{BeginAlgorithm}{\textbf{Начало алгоритма}}
+    \algrenewtext{EndAlgorithm}{\textbf{Конец алгоритма}}
+    \algrenewtext{BeginBlock}{\textbf{Начало блока. }}
+    \algrenewtext{EndBlock}{\textbf{Конец блока}}
+    \algrenewtext{ElsIf}{\textbf{иначе если }}
 
-  % Перевод команд псевдокода
-  \algrenewcommand\algorithmicwhile{\textbf{До тех пока}}
-  \algrenewcommand\algorithmicdo{\textbf{выполнять}}
-  \algrenewcommand\algorithmicrepeat{\textbf{Повторять}}
-  \algrenewcommand\algorithmicuntil{\textbf{Пока выполняется}}
-  \algrenewcommand\algorithmicend{\textbf{Конец}}
-  \algrenewcommand\algorithmicif{\textbf{Если}}
-  \algrenewcommand\algorithmicelse{\textbf{иначе}}
-  \algrenewcommand\algorithmicthen{\textbf{тогда}}
-  \algrenewcommand\algorithmicfor{\textbf{Цикл}}
-  \algrenewcommand\algorithmicforall{\textbf{Выполнить для всех}}
-  \algrenewcommand\algorithmicfunction{\textbf{Функция}}
-  \algrenewcommand\algorithmicprocedure{\textbf{Процедура}}
-  \algrenewcommand\algorithmicloop{\textbf{Зациклить}}
-  \algrenewcommand\algorithmicrequire{\textbf{Условия:}}
-  \algrenewcommand\algorithmicensure{\textbf{Обеспечивающие условия:}}
-  \algrenewcommand\algorithmicreturn{\textbf{Возвратить}}
-  \algrenewtext{EndWhile}{\textbf{Конец цикла}}
-  \algrenewtext{EndLoop}{\textbf{Конец зацикливания}}
-  \algrenewtext{EndFor}{\textbf{Конец цикла}}
-  \algrenewtext{EndFunction}{\textbf{Конец функции}}
-  \algrenewtext{EndProcedure}{\textbf{Конец процедуры}}
-  \algrenewtext{EndIf}{\textbf{Конец условия}}
-  \algrenewtext{EndFor}{\textbf{Конец цикла}}
-  \algrenewtext{BeginAlgorithm}{\textbf{Начало алгоритма}}
-  \algrenewtext{EndAlgorithm}{\textbf{Конец алгоритма}}
-  \algrenewtext{BeginBlock}{\textbf{Начало блока. }}
-  \algrenewtext{EndBlock}{\textbf{Конец блока}}
-  \algrenewtext{ElsIf}{\textbf{иначе если }}
-
-\chapter{Chapter 1}
+  \chapter{Chapter 1}
 
   \begin{algorithm}
     \caption{Пример алгоритма}\label{alg:Examples}
     \begin{algorithmic}[1]
-
     \end{algorithmic}
   \end{algorithm}
 
-  \listofalgorithms
-
+    \listofalgorithms
 \end{document}
 ```
 
@@ -1446,11 +1408,10 @@ _Рисунок 38 — Алгоритм имеет подпись на русс�
 
 % Нумерация блоков
 \usepackage{caption}% http://ctan.org/pkg/caption
-\captionsetup[ruled]{labelsep=period}
+\captionsetup[ruled]{labelsep = period}
 \renewcommand{\thealgorithm}{\arabic{algorithm}}
 
 \begin{document}
-
   % Перевод данных об алгоритмах
   \renewcommand{\listalgorithmname}{Список алгоритмов}
   \floatname{algorithm}{Алгоритм}
@@ -1488,11 +1449,11 @@ _Рисунок 38 — Алгоритм имеет подпись на русс�
   \begin{algorithm}
     \caption{Пример алгоритма}\label{alg:Examples}
     \begin{algorithmic}[1]
-      \State $X=45$
-      \For{\textbf{от} $i=0$ \textbf{до} 5}
-      \State $X=X-2$
+      \State $X = 45$
+      \For{\textbf{от} $i = 0$ \textbf{до} 5}
+      \State $X = X - 2$
       \State \Call {Find}{$X$}
-      \While{$Y_2<5$}
+      \While{$Y_2 < 5$}
 
       \If{$quality\ge 9$}
       \State $a\gets perfect$
@@ -1509,7 +1470,7 @@ _Рисунок 38 — Алгоритм имеет подпись на русс�
       \EndWhile
       \State \Return $X$
       \BeginBlock Прибавление 2:
-      \State $X+=2$
+      \State $X + = 2$
       \EndBlock
       \EndFor
     \end{algorithmic}
@@ -1520,14 +1481,13 @@ _Рисунок 38 — Алгоритм имеет подпись на русс�
     \begin{algorithmic}[1]
       \Require $x\ge5$
       \Statex
-      \While{$x>-5$}
-      \State $x\gets x-1$
+      \While{$x > -5$}
+      \State $x\gets x - 1$
       \EndWhile
     \end{algorithmic}
   \end{algorithm}
 
   \listofalgorithms
-
 \end{document}
 ```
 

@@ -61,29 +61,29 @@ attribution:
 %%% Отображение кода %%%
 % Настройки отображения кода
 \lstset{
-  language=C++, % Язык кода по умолчанию
-  morekeywords={*,...}, % если хотите добавить ключевые слова, то добавляйте
+  language = C + +, % Язык кода по умолчанию
+  morekeywords = {*, ...}, % если хотите добавить ключевые слова, то добавляйте
   % Цвета
-  keywordstyle=\color{keyword}\ttfamily\bfseries,
-  %stringstyle=\color{string}\ttfamily,
-  stringstyle=\ttfamily\color{red!50!brown},
-  commentstyle=\color{comment}\ttfamily\itshape,
-  morecomment=[l][\color{morecomment}]{\#},
+  keywordstyle = \color{keyword}\ttfamily\bfseries,
+  %stringstyle = \color{string}\ttfamily,
+  stringstyle = \ttfamily\color{red!50!brown},
+  commentstyle = \color{comment}\ttfamily\itshape,
+  morecomment = [l][\color{morecomment}]{\#},
   % Настройки отображения
-  breaklines=true, % Перенос длинных строк
-  basicstyle=\ttfamily\footnotesize, % Шрифт для отображения кода
-  backgroundcolor=\color{bk}, % Цвет фона кода
-  frame=lrb,xleftmargin=\fboxsep,xrightmargin=-\fboxsep, % Рамка, подогнанная к заголовку
-  rulecolor=\color{frame}, % Цвет рамки
-  tabsize=3, % Размер табуляции в пробелах
+  breaklines = true, % Перенос длинных строк
+  basicstyle = \ttfamily\footnotesize, % Шрифт для отображения кода
+  backgroundcolor = \color{bk}, % Цвет фона кода
+  frame = lrb, xleftmargin = \fboxsep, xrightmargin = -\fboxsep, % Рамка, подогнанная к заголовку
+  rulecolor = \color{frame}, % Цвет рамки
+  tabsize = 3, % Размер табуляции в пробелах
   % Настройка отображения номеров строк. Если не нужно, то удалите весь блок
-  %numbers=left, % Слева отображаются номера строк
-  %stepnumber=1, % Каждую строку нумеровать
-  %numbersep=5pt, % Отступ от кода
-  %numberstyle=\small\color{black}, % Стиль написания номеров строк
+  %numbers = left, % Слева отображаются номера строк
+  %stepnumber = 1, % Каждую строку нумеровать
+  %numbersep = 5pt, % Отступ от кода
+  %numberstyle = \small\color{black}, % Стиль написания номеров строк
   % Для отображения русского языка
-  extendedchars=true,
-  literate={Ö}{ {\"O} }1
+  extendedchars = true,
+  literate = {Ö}{ {\"O} }1
   {Ä}{ {\"A} }1
   {Ü}{ {\"U} }1
   {ß}{ {\ss} }1
@@ -170,30 +170,30 @@ attribution:
 }
 % Для настройки заголовка кода
 \DeclareCaptionFont{white}{\color{captiontext} }
-\DeclareCaptionFormat{listing}{\parbox{\linewidth}{\colorbox{captionbk}{\parbox{\linewidth}{#1#2#3} }\vskip-4pt} }
-\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+\DeclareCaptionFormat{listing}{\parbox{\linewidth}{\colorbox{captionbk}{\parbox{\linewidth}{#1#2#3} }\vskip - 4pt} }
+\captionsetup[lstlisting]{format = listing, labelfont = white, textfont = white}
 \renewcommand{\lstlistingname}{Код} % Переименование Listings в нужное именование структуры
 % Для отображения кода формата xml
 \lstdefinelanguage{XML}
 {
-  morestring=[s]{"}{"},
-  morecomment=[s]{?}{?},
-  morecomment=[s]{!--}{--},
-  commentstyle=\color{comment},
-  moredelim=[s][\color{black}]{>}{<},
-  moredelim=[s][\color{red}]{\ }{=},
-  stringstyle=\color{string},
-  identifierstyle=\color{keyword}
+  morestring = [s]{"}{"},
+  morecomment = [s]{?}{?},
+  morecomment = [s]{! - -}{--},
+  commentstyle = \color{comment},
+  moredelim = [s][\color{black}]{ > }{ < },
+  moredelim = [s][\color{red}]{\ }{ = },
+  stringstyle = \color{string},
+  identifierstyle = \color{keyword}
 }
 ```
 
 Далее уже в документе пишите свой код, например:
 
 ```tex
-\begin{lstlisting}[language=html,label=some-code2,caption=Еще код]
-<html>
- <p>Example text for <b>bold</b> text.<p>
-</html>
+\begin{lstlisting}[language = html, label = some-code2, caption = Еще код]
+  < html >
+   < p > Example text for < b > bold < /b > text. < p >
+  < /html >
 \end{lstlisting}
 ```
 
@@ -226,29 +226,29 @@ attribution:
 %%% Отображение кода %%%
 % Настройки отображения кода
 \lstset{
-  language=C++, % Язык кода по умолчанию
-  morekeywords={*,...}, % если хотите добавить ключевые слова, то добавляйте
+  language = C + +, % Язык кода по умолчанию
+  morekeywords = {*, ...}, % если хотите добавить ключевые слова, то добавляйте
   % Цвета
-  keywordstyle=\color{keyword}\ttfamily\bfseries,
-  %stringstyle=\color{string}\ttfamily,
-  stringstyle=\ttfamily\color{red!50!brown},
-  commentstyle=\color{comment}\ttfamily\itshape,
-  morecomment=[l][\color{morecomment}]{\#},
+  keywordstyle = \color{keyword}\ttfamily\bfseries,
+  %stringstyle = \color{string}\ttfamily,
+  stringstyle = \ttfamily\color{red!50!brown},
+  commentstyle = \color{comment}\ttfamily\itshape,
+  morecomment = [l][\color{morecomment}]{\#},
   % Настройки отображения
-  breaklines=true, % Перенос длинных строк
-  basicstyle=\ttfamily\footnotesize, % Шрифт для отображения кода
-  backgroundcolor=\color{bk}, % Цвет фона кода
-  frame=lrb,xleftmargin=\fboxsep,xrightmargin=-\fboxsep, % Рамка, подогнанная к заголовку
-  rulecolor=\color{frame}, % Цвет рамки
-  tabsize=3, % Размер табуляции в пробелах
+  breaklines = true, % Перенос длинных строк
+  basicstyle = \ttfamily\footnotesize, % Шрифт для отображения кода
+  backgroundcolor = \color{bk}, % Цвет фона кода
+  frame = lrb, xleftmargin = \fboxsep, xrightmargin = -\fboxsep, % Рамка, подогнанная к заголовку
+  rulecolor = \color{frame}, % Цвет рамки
+  tabsize = 3, % Размер табуляции в пробелах
   % Настройка отображения номеров строк. Если не нужно, то удалите весь блок
-  %numbers=left, % Слева отображаются номера строк
-  %stepnumber=1, % Каждую строку нумеровать
-  %numbersep=5pt, % Отступ от кода
-  %numberstyle=\small\color{black}, % Стиль написания номеров строк
+  %numbers = left, % Слева отображаются номера строк
+  %stepnumber = 1, % Каждую строку нумеровать
+  %numbersep = 5pt, % Отступ от кода
+  %numberstyle = \small\color{black}, % Стиль написания номеров строк
   % Для отображения русского языка
-  extendedchars=true,
-  literate={Ö}{ {\"O} }1
+  extendedchars = true,
+  literate = {Ö}{ {\"O} }1
   {Ä}{ {\"A} }1
   {Ü}{ {\"U} }1
   {ß}{ {\ss} }1
@@ -335,56 +335,54 @@ attribution:
 }
 % Для настройки заголовка кода
 \DeclareCaptionFont{white}{\color{captiontext} }
-\DeclareCaptionFormat{listing}{\parbox{\linewidth}{\colorbox{captionbk}{\parbox{\linewidth}{#1#2#3} }\vskip-4pt} }
-\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+\DeclareCaptionFormat{listing}{\parbox{\linewidth}{\colorbox{captionbk}{\parbox{\linewidth}{#1#2#3} }\vskip - 4pt} }
+\captionsetup[lstlisting]{format = listing, labelfont = white, textfont = white}
 \renewcommand{\lstlistingname}{Код} % Переименование Listings в нужное именование структуры
 % Для отображения кода формата xml
 \lstdefinelanguage{XML}
 {
-  morestring=[s]{"}{"},
-  morecomment=[s]{?}{?},
-  morecomment=[s]{!--}{--},
-  commentstyle=\color{comment},
-  moredelim=[s][\color{black}]{>}{<},
-  moredelim=[s][\color{red}]{\ }{=},
-  stringstyle=\color{string},
-  identifierstyle=\color{keyword}
+  morestring = [s]{"}{"},
+  morecomment = [s]{?}{?},
+  morecomment = [s]{! - -}{--},
+  commentstyle = \color{comment},
+  moredelim = [s][\color{black}]{ > }{ < },
+  moredelim = [s][\color{red}]{\ }{ = },
+  stringstyle = \color{string},
+  identifierstyle = \color{keyword}
 }
 
 \begin{document}
+  \begin{lstlisting}[label = some-code, caption = Некоторый код]
+    #include < stdio.h >
+    #include < iostream >
+    //Comments Пример
+    int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;int x = 0;
+    for (i = 0;i < 5;i + +)
+    {
+    }
+    void HML_SeedRandom(void)
+    {
+    /*
+    Инициализатор генератора случайных чисел.
+    В данном случае используется самый простой его вариант со всеми его недостатками.
+    Входные параметры:
+    Отсутствуют.
+    Возвращаемое значение:
+    Отсутствуют.
+    */
+    //В качестве начального значения для ГСЧ используем текущее время
+    HML_Dummy = (unsigned)time(NULL);
+    srand(HML_Dummy);//Стандартная инициализация
+    rand();//первый вызов для контроля
+    }
+    // - -------------------------------------------------------------------
+  \end{lstlisting}
 
-\begin{lstlisting}[label=some-code,caption=Некоторый код]
-#include<stdio.h>
-#include<iostream>
-//Comments Пример
-int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;int x=0;
-for (i=0;i<5;i++)
-{
-}
-void HML_SeedRandom(void)
-{
-/*
-Инициализатор генератора случайных чисел.
-В данном случае используется самый простой его вариант со всеми его недостатками.
-Входные параметры:
-Отсутствуют.
-Возвращаемое значение:
-Отсутствуют.
-*/
-//В качестве начального значения для ГСЧ используем текущее время
-HML_Dummy=(unsigned)time(NULL);
-srand(HML_Dummy);//Стандартная инициализация
-rand();//первый вызов для контроля
-}
-//--------------------------------------------------------------------
-\end{lstlisting}
-
-\begin{lstlisting}[language=html,label=some-code2,caption=Еще код]
-<html>
-<p>Example text for <b>bold</b> text.<p>
-</html>
-\end{lstlisting}
-
+  \begin{lstlisting}[language = html, label = some-code2, caption = Еще код]
+    < html >
+    < p > Example text for < b > bold < /b > text. < p >
+    < /html >
+  \end{lstlisting}
 \end{document}
 ```
 
@@ -428,4 +426,4 @@ definecolor{captiontext}{HTML}{FFFFFF} % цвет текста заголовк�
 
 Хотел было настроить еще цвет для цифр, нашел нормальный способ, но к сожалению в том виде, что есть, он не работает с добавлением русских букв. Можно переделать, то тогда цифры будут везде выделяться. Даже в названиях переменных, строках и др., что мне совсем не надо.
 
-P.S. Код C++ в примере, который выводится, конечно не соответствует правильному написанию кода, но в этой статье это же не важно?
+P. S. Код C++ в примере, который выводится, конечно не соответствует правильному написанию кода, но в этой статье это же не важно?

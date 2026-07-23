@@ -1444,10 +1444,10 @@ _Рисунок 100 — Раздел TextFX HTML Tidy_
 
 - About Tidy
 - Visit HTML Tidy SourceForge website
-- Download libTidy.DLL from SourceForge
-- Reload libTidy.DLL
-- Refresh Menu from TidyCFG.INI
-- Tidy (most recent HTMLTIDY.CFG)
+- Download `libTidy.DLL` from SourceForge
+- Reload `libTidy.DLL`
+- Refresh Menu from `TidyCFG.INI`
+- Tidy (most recent `HTMLTIDY.CFG`)
 
 ## TextFX Tools
 
@@ -2289,7 +2289,7 @@ _Рисунок 199 — Результат выполнения команды �
 
 _Рисунок 200 — Результат выполнения команды «Help_
 
-Данный файл `nppTextFXDemo.txt` на диске я так и не нашел. Но в интернете он есть. Если нужно, пользуйтесь: [nppTextFXDemo.txt](files/nppTextFXDemo.txt).
+Данный файл `nppTextFXDemo.txt` на диске я так и не нашел. Но в Интернете он есть. Если нужно, пользуйтесь: [`nppTextFXDemo.txt`](files/nppTextFXDemo.txt).
 
 Может некоторые функции объяснены тут лучше, чем у меня. Но есть описание не всех функций, и я почти все функции проверил на работоспособность.
 

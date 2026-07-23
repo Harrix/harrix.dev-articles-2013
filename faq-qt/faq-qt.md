@@ -667,7 +667,7 @@ QT       += core gui webkitwidgets
 ui->webView->setUrl(QUrl::fromLocalFile(path));
 ```
 
-`path` — переменная типа QString. Для открытия файла index.html, находящийся в папке с программой воспользуйтесь кодом:
+`path` — переменная типа QString. Для открытия файла `index.html`, находящийся в папке с программой воспользуйтесь кодом:
 
 ```cpp
 QString path=QGuiApplication::applicationDirPath() + QDir::separator() + "index.html";

@@ -57,19 +57,19 @@ lang: ru
 
 ```tex
 \begin{algorithm}[H]
-  \SetAlgoLined
-  \KwData{this text}
-  \KwResult{how to write algorithm with LaTeX2e }
-  initialization;
-  \While{not at end of this document}{
-    read current;
-    \eIf{understand}{
-      go to next section; current section becomes this one;
-    }{
-    go back to the beginning of current section;
+    \SetAlgoLined
+    \KwData{this text}
+    \KwResult{how to write algorithm with LaTeX2e }
+    initialization;
+    \While{not at end of this document}{
+      read current;
+      \eIf{understand}{
+        go to next section; current section becomes this one;
+      }{
+      go back to the beginning of current section;
+    }
   }
-}
-\caption{How to write algorithms}
+  \caption{How to write algorithms}
 \end{algorithm}
 ```
 
@@ -84,29 +84,29 @@ _Рисунок 1 — Простой пример псевдокода_
 ```tex
 % Второй алгоритм
 \begin{algorithm}[H]
-  \SetAlgoLined %% Это соединяет линиями логические части
-  %% алгоритма типа if-then-else
+    \SetAlgoLined %% Это соединяет линиями логические части
+    %% алгоритма типа if-then-else
 
-  \KwData{ experiment.data} %% здесь можно указать исходные параметры
-  \KwResult{ output, xoptimal } %% результат работы программы
-  x=0;
-  \While{ $\tau_{norm} > \varepsilon_{tol}$ }{
-    $s_{k-1} \leftarrow x_k - x_{k-1}$;
-    // Step length computation: %% это комментарий, который будет виден.
-    \eIf{$k$ is even}{
-      $ \alpha_k^{ABB} = \frac{ s_{k-1}^T y_{k-1}}{y_{k-1}^T y_{k-1}}$
-    }{ %% ELSE
-    $\alpha_k^{ABB} = \frac{ s_{k-1}^T s_{k-1}}{s_{k-1}^T y_{k-1}}$
-  } %% END eIf{$k$ is even}{
-  $k \leftarrow k + 1$;
-  \For{ i = 1}{
-    $x_{i+1} = P_\Omega(x_i - \alpha_k^{ABB}*g_k)$;
-  } %% END For{ i = 1}{
-  // Compute the termination constant %% это комментарий, который будет виден.
-  $\tau_{norm} = abs ( ||x_{k}||_2 - ||x_{k-1}||_2)$
-} %% END While{ $\tau_{norm} > \varepsilon_{tol}$ }{
-\caption{Pseudo-code for basic algorithm.}
-\label{alg:generalGP}
+    \KwData{ experiment.data} %% здесь можно указать исходные параметры
+    \KwResult{ output, xoptimal } %% результат работы программы
+    x = 0;
+    \While{ $\tau_{norm} > \varepsilon_{tol}$ }{
+      $s_{k-1} \leftarrow x_k - x_{k-1}$;
+      // Step length computation: %% это комментарий, который будет виден.
+      \eIf{$k$ is even}{
+        $ \alpha_k^{ABB} = \frac{s_{k-1}^T y_{k-1}}{y_{k-1}^T y_{k-1}}$
+      }{ %% ELSE
+      $\alpha_k^{ABB} = \frac{s_{k-1}^T s_{k-1}}{s_{k-1}^T y_{k-1}}$
+    } %% END eIf{$k$ is even}{
+    $k \leftarrow k + 1$;
+    \For{ i = 1}{
+      $x_{i+1} = P_\Omega(x_i - \alpha_k^{ABB}*g_k)$;
+    } %% END For{ i = 1}{
+    // Compute the termination constant %% это комментарий, который будет виден.
+    $\tau_{norm} = abs ( ||x_{k}||_2 - ||x_{k-1}||_2)$
+  } %% END While{ $\tau_{norm} > \varepsilon_{tol}$ }{
+  \caption{Pseudo-code for basic algorithm.}
+  \label{alg:generalGP}
 \end{algorithm}
 ```
 
@@ -194,51 +194,49 @@ _Рисунок 3 — Пример псевдокода с русским тек
 \SetAlgorithmName{Алгоритм}{алгоритм}{Список алгоритмов}
 
 \begin{document}
-
-  % Первый алгоритм
+    % Первый алгоритм
   \begin{algorithm}[H]
-    \SetAlgoLined
-    \KwData{Входные данные}
-    \KwResult{Как прочитать книгу }
-    инициализация;
-    \While{есть непонятая глава книги}{
-      прочитать текущую главу;
-      \eIf{понятно}{
-        перейти к следующей главе; текущей главой становится следующая глава;
-      }{
-      перейти к началу текущей главы;
+      \SetAlgoLined
+      \KwData{Входные данные}
+      \KwResult{Как прочитать книгу }
+      инициализация;
+      \While{есть непонятая глава книги}{
+        прочитать текущую главу;
+        \eIf{понятно}{
+          перейти к следующей главе; текущей главой становится следующая глава;
+        }{
+        перейти к началу текущей главы;
+      }
     }
-  }
-  \caption{Как прочитать книгу}
-\end{algorithm}
+    \caption{Как прочитать книгу}
+  \end{algorithm}
 
-% Второй алгоритм
-\begin{algorithm}[H]
-  \SetAlgoLined %% Это соединяет линиями логические части
-  %% алгоритма типа if-then-else
+  % Второй алгоритм
+  \begin{algorithm}[H]
+      \SetAlgoLined %% Это соединяет линиями логические части
+      %% алгоритма типа if-then-else
 
-  \KwData{ experiment.data} %% здесь можно указать исходные параметры
-  \KwResult{ output, xoptimal } %% результат работы программы
-  x=0;
-  \While{ $\tau_{norm} > \varepsilon_{tol}$ }{
-    $s_{k-1} \leftarrow x_k - x_{k-1}$;
-    // Step length computation: %% это комментарий, который будет виден.
-    \eIf{$k$ is even}{
-      $ \alpha_k^{ABB} = \frac{ s_{k-1}^T y_{k-1}}{y_{k-1}^T y_{k-1}}$
-    }{ %% ELSE
-    $\alpha_k^{ABB} = \frac{ s_{k-1}^T s_{k-1}}{s_{k-1}^T y_{k-1}}$
-  } %% END eIf{$k$ is even}{
-  $k \leftarrow k + 1$;
-  \For{ i = 1}{
-    $x_{i+1} = P_\Omega(x_i - \alpha_k^{ABB}*g_k)$;
-  } %% END For{ i = 1}{
-  // Compute the termination constant %% это комментарий, который будет виден.
-  $\tau_{norm} = abs ( ||x_{k}||_2 - ||x_{k-1}||_2)$
-} %% END While{ $\tau_{norm} > \varepsilon_{tol}$ }{
-\caption{Pseudo-code for basic algorithm.}
-\label{alg:generalGP}
-\end{algorithm}
-
+      \KwData{ experiment.data} %% здесь можно указать исходные параметры
+      \KwResult{ output, xoptimal } %% результат работы программы
+      x = 0;
+      \While{ $\tau_{norm} > \varepsilon_{tol}$ }{
+        $s_{k-1} \leftarrow x_k - x_{k-1}$;
+        // Step length computation: %% это комментарий, который будет виден.
+        \eIf{$k$ is even}{
+          $ \alpha_k^{ABB} = \frac{s_{k-1}^T y_{k-1}}{y_{k-1}^T y_{k-1}}$
+        }{ %% ELSE
+        $\alpha_k^{ABB} = \frac{s_{k-1}^T s_{k-1}}{s_{k-1}^T y_{k-1}}$
+      } %% END eIf{$k$ is even}{
+      $k \leftarrow k + 1$;
+      \For{ i = 1}{
+        $x_{i+1} = P_\Omega(x_i - \alpha_k^{ABB}*g_k)$;
+      } %% END For{ i = 1}{
+      // Compute the termination constant %% это комментарий, который будет виден.
+      $\tau_{norm} = abs ( ||x_{k}||_2 - ||x_{k-1}||_2)$
+    } %% END While{ $\tau_{norm} > \varepsilon_{tol}$ }{
+    \caption{Pseudo-code for basic algorithm.}
+    \label{alg:generalGP}
+  \end{algorithm}
 \end{document}
 ```
 

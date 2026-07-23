@@ -33,17 +33,15 @@ lang: ru
 \setlength{\parskip}{0.3cm} % отступы между абзацами
 
 \begin{document}
+  Первый абзац о всякой непонятной информации.
 
-Первый абзац о всякой непонятной информации.
+  Описание списка:
 
-Описание списка:
-
-\begin{itemize}
-\item Первый пункт
-\item Второй пункт
-\item Третий пункт
-\end{itemize}
-
+  \begin{itemize}
+    \item Первый пункт
+    \item Второй пункт
+    \item Третий пункт
+  \end{itemize}
 \end{document}
 ```
 
@@ -57,7 +55,7 @@ _Рисунок 1 — Проблема с отступом между списк
 
 ```tex
 \usepackage{enumitem}
-\setlist{nolistsep, itemsep=0.3cm,parsep=0pt}
+\setlist{nolistsep, itemsep = 0.3cm, parsep = 0pt}
 ```
 
 И наш документ примет вид:
@@ -73,20 +71,18 @@ _Рисунок 1 — Проблема с отступом между списк
 \setlength{\parskip}{0.3cm} % отступы между абзацами
 
 \usepackage{enumitem}
-\setlist{nolistsep, itemsep=0.3cm,parsep=0pt}
+\setlist{nolistsep, itemsep = 0.3cm, parsep = 0pt}
 
 \begin{document}
+  Первый абзац о всякой непонятной информации.
 
-Первый абзац о всякой непонятной информации.
+  Описание списка:
 
-Описание списка:
-
-\begin{itemize}
-\item Первый пункт
-\item Второй пункт
-\item Третий пункт
-\end{itemize}
-
+  \begin{itemize}
+    \item Первый пункт
+    \item Второй пункт
+    \item Третий пункт
+  \end{itemize}
 \end{document}
 ```
 
@@ -109,7 +105,7 @@ _Рисунок 3 — Список, где между элементами не�
 Если добавить только это в преамбулу, то получим:
 
 ```tex
-\setlist{nolistsep, itemsep=0.3cm,parsep=0pt,leftmargin=1.5cm}
+\setlist{nolistsep, itemsep = 0.3cm, parsep = 0pt, leftmargin = 1.5cm}
 ```
 
 ![Список, где между элементами расстояние определяется пользователем](img/result.png)

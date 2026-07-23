@@ -33,9 +33,7 @@ lang: ru
 \usepackage{pscyr} % Нормальные шрифты
 
 \begin{document}
-
-Первый абзац о всякой непонятной информации.
-
+  Первый абзац о всякой непонятной информации.
 \end{document}
 ```
 
@@ -96,12 +94,10 @@ language = "ukrainian"
 \usepackage{pscyr} % Нормальные шрифты
 
 \begin{document}
+  Первый абзац о \cite{Vasylenko92} всякой непонятной \cite{Afanasyev92} информации.
 
-Первый абзац о \cite{Vasylenko92} всякой непонятной \cite{Afanasyev92} информации.
-
-\bibliographystyle{utf8gost705u} %% стилевой файл для оформления по ГОСТу
-\bibliography{biblio} %% имя библиографической базы (bib-файла)
-
+  \bibliographystyle{utf8gost705u} %% стилевой файл для оформления по ГОСТу
+  \bibliography{biblio} %% имя библиографической базы (bib-файла)
 \end{document}
 ```
 

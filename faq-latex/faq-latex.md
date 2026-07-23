@@ -159,7 +159,7 @@ TeXstudio — это только редактор кода. За компиля
 Или так:
 
 ```tex
-$\sim$
+$ \sim $
 ```
 
 ## Как оформлять список литературы в LaTeX
@@ -215,7 +215,7 @@ _Рисунок 1 — Сравнение двух вариантов знака 
 ```tex
 \RequirePackage{caption}
 \DeclareCaptionLabelSeparator{defffis}{. }
-\captionsetup{justification=centering,labelsep=defffis}
+\captionsetup{justification = centering, labelsep = defffis}
 ```
 
 Если вам нужен другой символ, то во второй строчке поменяйте на свою комбинацию символов в последних фигурных стрелках.

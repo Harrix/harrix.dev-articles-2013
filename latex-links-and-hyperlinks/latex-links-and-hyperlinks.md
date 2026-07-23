@@ -47,7 +47,7 @@ lang: ru
 \definecolor{linkcolor}{HTML}{799B03} % цвет ссылок
 \definecolor{urlcolor}{HTML}{799B03} % цвет гиперссылок
 
-\hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true}
+\hypersetup{pdfstartview = FitH, linkcolor = linkcolor, urlcolor = urlcolor, colorlinks = true}
 ```
 
 Параметр `FitH` показывает, что итоговый PDF документ был по ширине расположен на экране.
@@ -87,29 +87,29 @@ lang: ru
 \definecolor{linkcolor}{HTML}{799B03} % цвет ссылок
 \definecolor{urlcolor}{HTML}{799B03} % цвет гиперссылок
 
-\hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true}
+\hypersetup{pdfstartview = FitH, linkcolor = linkcolor, urlcolor = urlcolor, colorlinks = true}
 
 \begin{document}
+  Пример текста, содержащего некоторую информацию.
 
-Пример текста, содержащего некоторую информацию.
+  А вот ссылка на сайт \href{https://github.com/Harrix/Math-Harrix-Library}{https://github.com/Harrix/Math-Harrix-Library}.
 
-А вот ссылка на сайт \href{https://github.com/Harrix/Math-Harrix-Library}{https://github.com/Harrix/Math-Harrix-Library}.
+  Сошлемся на формулу \ref{formula2}.
 
-Сошлемся на формулу \ref{formula2}.
+  Но можно и через написание произвольного текста. Например, сошлемся на \hyperref[formula2]{вторую формулу}.
 
-Но можно и через написание произвольного текста. Например, сошлемся на \hyperref[formula2]{вторую формулу}.
+  Первая формула:
 
-Первая формула:
+  \begin{equation}
+    \label{formula}
+    P_2 = 2^{log_2 1, 32} \cdot 2^{23} = 2^{23, 401}
+  \end{equation}
 
-\begin{equation}\label{formula}
-P_2 = 2^{log_2 1,32}\cdot 2^{23} = 2^{23,401}
-\end{equation}
-
-Вторая формула:
-\begin{equation}\label{formula2}
-M_2 = 2^{25178112}
-\end{equation}
-
+  Вторая формула:
+  \begin{equation}
+    \label{formula2}
+    M_2 = 2^{25178112}
+  \end{equation}
 \end{document}
 ```
 
