@@ -456,7 +456,7 @@ _Рисунок 4 — Подменю TextFX Characters_
 
 ### `unEscape "" to "`
 
-Двойные двойные кавычки превращает в обычные двойные.
+Удвоенные двойные кавычки превращает в обычные двойные.
 
 Первоначальный текст:
 
@@ -838,7 +838,7 @@ _Рисунок 34 — Текст с табуляцией и пробелами_
 
 ![Результат выполнения команды «»Leading space to tabs or tabs to spaces»](img/lead_02.png)
 
-_Рисунок 35 — Результат выполнения команды «»Leading space to tabs or tabs to spaces»_
+_Рисунок 35 — Результат выполнения команды «Leading space to tabs or tabs to spaces»_
 
 ### `Leading space to tabs or tabs to spaces width=8`
 
