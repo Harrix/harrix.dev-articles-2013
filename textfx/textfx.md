@@ -838,7 +838,7 @@ _Рисунок 34 — Текст с табуляцией и пробелами_
 
 ![Результат выполнения команды «»Leading space to tabs or tabs to spaces»](img/lead_02.png)
 
-_Рисунок 35 — Результат выполнения команды «Leading space to tabs or tabs to spaces»_
+_Рисунок 35 — Результат выполнения команды Leading space to tabs or tabs to spaces_
 
 ### `Leading space to tabs or tabs to spaces width=8`
 
@@ -1358,7 +1358,7 @@ _Рисунок 92 — Пример текста_
 
 При вызове функции получим:
 
-![Результат выполнения команды Convert Hex to text»](img/hex-to-text_02.png)
+![Результат выполнения команды Convert Hex to text](img/hex-to-text_02.png)
 
 _Рисунок 93 — Результат выполнения команды Convert Hex to text»_
 
@@ -2285,9 +2285,9 @@ _Рисунок 199 — Результат выполнения команды �
 
 При нажатии появляется надпись:
 
-![Результат выполнения команды «Help](img/set_13.png)
+![Результат выполнения команды Help](img/set_13.png)
 
-_Рисунок 200 — Результат выполнения команды «Help_
+_Рисунок 200 — Результат выполнения команды Help_
 
 Данный файл `nppTextFXDemo.txt` на диске я так и не нашел. Но в Интернете он есть. Если нужно, пользуйтесь: [`nppTextFXDemo.txt`](files/nppTextFXDemo.txt).
 
