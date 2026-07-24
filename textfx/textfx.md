@@ -836,7 +836,7 @@ _Рисунок 34 — Текст с табуляцией и пробелами_
 
 При вызове функции получим:
 
-![Результат выполнения команды «»Leading space to tabs or tabs to spaces»](img/lead_02.png)
+![Результат выполнения команды Leading space to tabs or tabs to spaces](img/lead_02.png)
 
 _Рисунок 35 — Результат выполнения команды Leading space to tabs or tabs to spaces_
 
@@ -1360,7 +1360,7 @@ _Рисунок 92 — Пример текста_
 
 ![Результат выполнения команды Convert Hex to text](img/hex-to-text_02.png)
 
-_Рисунок 93 — Результат выполнения команды Convert Hex to text»_
+_Рисунок 93 — Результат выполнения команды Convert Hex to text_
 
 ### `ROT13 Text`
 
