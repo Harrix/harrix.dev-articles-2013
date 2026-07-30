@@ -269,8 +269,7 @@ _Рисунок 20 — Настройка табуляции_
 
 _Рисунок 21 — Убирание рамки_
 
-А в качестве шрифта использую [JetBrains
-Mono](https://www.jetbrains.com/ru-ru/lp/mono/)
+А в качестве шрифта использую [JetBrainsMono](https://www.jetbrains.com/ru-ru/lp/mono/)
 
 ![Настройки шрифта](img/font.png)
 
