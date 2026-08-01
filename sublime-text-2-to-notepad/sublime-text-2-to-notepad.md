@@ -88,7 +88,7 @@ lang: ru
 
 _Рисунок 1 — Внешний вид Sublime Text 2_
 
-[Danny Connell](http://www.dconnell.co.uk/blog/index.php/2012/08/02/notepad-color-scheme-for-sublime-text-2/) предложил решение (далее почти дословно его слова): [Notepad++.zip](files/Notepad++.zip)
+[Danny Connell](http://www.dconnell.co.uk/blog/index.php/2012/08/02/notepad-color-scheme-for-sublime-text-2/) предложил решение (далее почти дословно его слова): [Notepad++.zip](files/Notepad++.zip):
 
 - Переходим в папку цветовых схем. В Windows 7 она находится по адресу, на который можно попасть любым из способов:
   - `C:\Users\[your username]\AppData\Roaming\Sublime Text 2\Packages\Color Scheme - Default`;
