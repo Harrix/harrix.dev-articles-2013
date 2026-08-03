@@ -412,7 +412,7 @@ for (int i = 0; i < 1000; i++)
 }
 ```
 
-Но разумеется, что лучше [использовать потоки](https://github.com/Harrix/harrix.dev-articles-2016/blob/main/using-qthread/using-qthread.md) | [↗️](https://harrix.dev/ru/articles/2016/using-qthread/) для этого.
+Но разумеется, что лучше использовать потоки ([Как пользоваться QThread в Qt](https://github.com/Harrix/harrix.dev-articles-2016/blob/main/using-qthread/using-qthread.md) | [↗️](https://harrix.dev/ru/articles/2016/using-qthread/)) для этого.
 
 ## Как получить расширение файла по его имени
 
